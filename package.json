@@ -1,0 +1,11 @@
+{
+  "name": "working-effectively-with-pull-requests",
+  "version": "1.0.0",
+  "description": "Slides for Working Effectively With Pull Requests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven J Hicks",
+  "license": "MIT"
+}
