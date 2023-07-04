@@ -4,7 +4,8 @@
   "description": "Slides for Working Effectively With Pull Requests",
   "main": "index.js",
   "scripts": {
-    "build": "marp src/slides.md -o build/index.html --theme ./src/theme.css"
+    "build": "marp src -o build/index.html --theme ./src/theme.css",
+    "start": "marp src --server --theme ./src/theme.css"
   },
   "author": "Steven J Hicks",
   "license": "MIT",
