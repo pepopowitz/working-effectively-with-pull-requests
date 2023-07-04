@@ -21,6 +21,19 @@ theme: steve
 - Item 2
 - Item 3
 
+<!-- HTML comment will recognize as presenter notes. -->
+
+<!-- are these notes? -->
+<!-- are these notes 2? -->
+<!-- is this a
+really
+
+really
+
+long
+
+note? -->
+
 ---
 
 ## Slide 2
