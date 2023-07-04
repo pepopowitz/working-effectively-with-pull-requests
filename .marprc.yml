@@ -1,0 +1,11 @@
+author: Steven Hicks
+title: 'Working Effectively With Pull Requests'
+description: 'Slides for Working Effectively With Pull Requests, a presentation by Steven Hicks'
+output: build/index.html
+theme: steve
+themeSet: src/theme.css
+url: https://pull-requests.stevenhicks.me
+# ogImage:
+bespoke:
+  # vvv turn off the on-screen controller (but P will still open presenter mode)
+  osc: false
