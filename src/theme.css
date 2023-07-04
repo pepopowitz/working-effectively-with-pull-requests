@@ -1,0 +1,8 @@
+/* @theme steve */
+
+@import 'gaia';
+
+section {
+  background-color: #f80;
+  color: #fff;
+}

@@ -1,7 +1,13 @@
 ---
 marp: true
-theme: default
+theme: steve
 ---
+
+<style>
+.slide {
+  font-family: 'Times New Roman', serif !important;
+}
+</style>
 
 ![bg Image sepia](https://picsum.photos/400/300)
 
