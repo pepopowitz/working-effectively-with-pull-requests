@@ -6,7 +6,7 @@ footer: 'pull-requests.stevenhicks.me'
 
 <!-- _class: title -->
 
-![bg](images/cover.jpg)
+![bg opacity:50%](images/cover.jpg)
 
 # Working Effectively<br/>With Pull Requests
 
