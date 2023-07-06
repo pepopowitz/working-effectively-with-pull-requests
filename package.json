@@ -4,12 +4,15 @@
   "description": "Slides for Working Effectively With Pull Requests",
   "main": "index.js",
   "scripts": {
-    "build": "marp src",
+    "images:copy": "cp src/favicon.ico ./build && imagemin src/images/* --out-dir=build/images",
+    "build:clear": "rm -rf build && mkdir build",
+    "build": "npm run build:clear && npm run images:copy && marp src",
     "start": "marp src --server"
   },
   "author": "Steven J Hicks",
   "license": "MIT",
   "devDependencies": {
-    "@marp-team/marp-cli": "^3.0.2"
+    "@marp-team/marp-cli": "^3.0.2",
+    "imagemin-cli": "^7.0.0"
   }
 }
