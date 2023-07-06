@@ -4,9 +4,15 @@ theme: steve
 footer: '**pull-requests.stevenhicks.me**'
 ---
 
-<!-- _class: invert -->
+<!-- _class: invert title -->
 
 # Working Effectively<br/>With Pull Requests
+
+##### 👦 Steven Hicks
+
+##### 🌎 pull-requests.stevenhicks.me
+
+##### ✉️ stevenhicks.me/where/
 
 ---
 
