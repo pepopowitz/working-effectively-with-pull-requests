@@ -51,6 +51,10 @@ footer {
   font-size: 32px;
 }
 
-section.title h5 {
-margin: 0;
+header strong {
+  color: #f80;
+}
+
+section h2, section h3, section h4, section h5, section h6 {
+  margin: 5px 0;
 }
