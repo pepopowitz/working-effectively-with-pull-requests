@@ -1,6 +1,9 @@
 # marp
 build/
 
+# mac
+.DS_Store
+
 # Logs
 logs
 *.log
