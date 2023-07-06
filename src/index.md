@@ -4,15 +4,34 @@ theme: steve
 footer: 'pull-requests.stevenhicks.me'
 ---
 
-<!-- _class: invert title -->
+<!-- _class: title -->
+
+![bg](images/cover.jpg)
 
 # Working Effectively<br/>With Pull Requests
 
-##### 👦 Steven Hicks
+### 👦 Steven Hicks
 
-##### 🌎 pull-requests.stevenhicks.me
+### 🌎 pull-requests.stevenhicks.me
 
-##### ✉️ stevenhicks.me/where/
+### ✉️ stevenhicks.me/where/
+
+---
+
+<!-- _class: invert -->
+<!-- _backgroundColor: black -->
+
+![height:200px center](./images/Logo_White.svg)
+
+<!--
+I'm a Developer Experience Engineer at Camunda
+
+Camunda builds a process orchestration platform
+
+I work mainly on the infrastructure for our documentation
+
+Camunda has a booth, come visit!
+ -->
 
 ---
 
