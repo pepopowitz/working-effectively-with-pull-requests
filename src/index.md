@@ -1,13 +1,15 @@
 ---
 marp: true
 theme: steve
+footer: '**pull-requests.stevenhicks.me**'
 ---
 
-<style>
+<!-- _class: invert -->
+<!-- <style>
 .slide {
   font-family: 'Times New Roman', serif !important;
 }
-</style>
+</style> -->
 
 ![bg Image sepia](https://picsum.photos/400/300)
 
@@ -36,11 +38,15 @@ note? -->
 
 ---
 
+<!-- _class: invert -->
+
 ## Slide 2
 
 ![bg Image](https://picsum.photos/800/600)
 
 ---
+
+<!-- _class: invert -->
 
 ## Slide 3
 

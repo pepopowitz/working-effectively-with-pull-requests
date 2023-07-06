@@ -1,8 +1,35 @@
 /* @theme steve */
 
-@import 'gaia';
+@import 'default';
 
-section {
+/* color variables */
+
+/* section:where(.invert) {
+  --color-accent-emphasis: #1f6feb;
+  --color-accent-fg: #58a6ff;
+  --color-attention-subtle: rgba(187,128,9,.15);
+  --color-border-default: #30363d;
+  --color-border-muted: #21262d;
+  --color-canvas-default: #0d1117;
+  --color-canvas-subtle: #161b22;
+  --color-danger-fg: #f85149;
+  --color-fg-default: #c9d1d9;
+  --color-fg-muted: #8b949e;
+  --color-fg-subtle: #6e7681;
+  --color-neutral-muted: hsla(215,8%,47%,.4);
+  --h1-color: #cee7ff;
+  --header-footer-color: hsla(0,0%,60%,.75);
+  --heading-strong-color: #7bf;
+  --paginate-color: #999;
+} */
+
+section.invert {
   background-color: #f80;
   color: #fff;
+  --h1-color: #fff;
+}
+
+footer {
+  text-align: right;
+  color: #f80;
 }
