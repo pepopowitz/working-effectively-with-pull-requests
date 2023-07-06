@@ -23,13 +23,20 @@
   --paginate-color: #999;
 } */
 
+section h1 {
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+}
+
 section.invert {
-  background-color: #f80;
+  background-color: rgb(8, 56, 77);
   color: #fff;
   --h1-color: #fff;
 }
 
 footer {
   text-align: right;
+  right: 30px;
+  left: unset;
   color: #f80;
+  font-size: 32px;
 }

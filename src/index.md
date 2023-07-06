@@ -5,15 +5,14 @@ footer: '**pull-requests.stevenhicks.me**'
 ---
 
 <!-- _class: invert -->
-<!-- <style>
-.slide {
-  font-family: 'Times New Roman', serif !important;
-}
-</style> -->
-
-![bg Image sepia](https://picsum.photos/400/300)
 
 # Working Effectively<br/>With Pull Requests
+
+---
+
+<!-- _class: invert -->
+
+## everything past this is a sample layout
 
 ---
 
