@@ -44,15 +44,14 @@ section:where(.invert) {
 
 /* root */
 section {
-  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  font-size: 2.4em;
   --theme-color-alt: #08384d;
   --theme-color-alt-light: #f80; 
 }
 
 /* headings */
 section h1 {
-  font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
-  font-size: 60px;
   font-weight: normal;
 }
 
@@ -68,6 +67,7 @@ section.invert {
 
 /* footer: slide URL */
 footer {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   text-align: right;
   right: 30px;
   left: unset;
@@ -81,6 +81,7 @@ section.invert footer {
 
 /* header: breadcrumbs */
 header {
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
   font-size: 24px;
 }
 
@@ -97,4 +98,10 @@ section h2, section h3, section h4, section h5, section h6 {
 img[alt~="center"] {
   display: block;
   margin: 0 auto;
+}
+
+/* highlighting text */
+li strong {
+  font-weight: inherit;
+  color: var(--heading-strong-color);
 }
