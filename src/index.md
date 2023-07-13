@@ -471,9 +471,149 @@ Especially when you're working across time zones and you have to wait until tomo
 
 # 3. The work before the work.
 
+<!--
+ground rules in place,
+let's look at the things that happen before opening a PR
+which lend themselves to a frictionless PR experience.
+-->
+
 ---
 
 <!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 | 7"  -->
+
+# Configure the project for **collaboration**.
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 | 7"  -->
+
+## Communicate **expectations**.
+
+todo: screenshot of contributing.md
+
+<!--
+frustratingly, this kind of documentation exists solely to point people to
+after they've proven that they didn't read it
+so there are a couple things we can do to enforce norms
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 | 7"  -->
+
+## Provide **clear** and **direct** templates.
+
+todo: screenshot of a PR template
+
+<!--
+
+- Suggest a format to enforce consistency of PRs, which can reduce cognitive load
+- Use checklists to guide progress and establish requirements
+- Provide options to keep people within the rails ?
+
+I emphasize clear and direct because any squishy language will just be ignored.
+
+Example: checklist in screenshot!
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 | 7"  -->
+
+## **Automate** the automatable.
+
+<!--
+- Syntax and formatting validation
+- Assignment of roles
+
+any rule that isn't enforced through automation will be violated
+
+and then it's up to a person to find it/fix it
+
+Ex: Amarabot to identify missing duplication in versions
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 | 7"  -->
+
+# Practice good commit **hygiene**.
+
+<!--
+on the code side of things
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
+
+## Good commits are **atomic**.
+
+<!-- prettier-ignore -->
+1) Small.
+<!-- prettier-ignore -->
+2) Clear and concise title.
+<!-- prettier-ignore -->
+3) Description to add context.
+
+<!--
+You can amend them along the way to meet these criteria
+
+Maybe: you can use a framework like conventional commits?
+https://www.conventionalcommits.org/en/v1.0.0/
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
+
+## Good commits **tell a story**.
+
+todo: image of pavlos's commit log alongside jon's commit log
+
+<!--
+
+Sometimes it's easier to review a PR one commit at a time
+
+It's nice to provide people that option
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
+
+## Good commits include **all contributors**.
+
+todo: screenshot of a co-authored trailer, plus how it shows up in github (https://github.com/jonallured/pear/pull/31/commits)
+
+<!--
+
+This is especially important when seniors pair with juniors
+
+Give the juniors credit to help build their GitHub portfolio.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
+
+## Good commits include **all contributors**.
+
+1. github.com/jonallured/pear
+
+2. github.com/git-duet/git-duet
+
+<!--
+
+A couple options for tools to make it easier to give credit when pairing
+
+I recommend pear because my former coworker wrote it and it's a nice lightweight experience
+
+-->
 
 ---
 
