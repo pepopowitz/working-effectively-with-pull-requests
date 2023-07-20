@@ -46,6 +46,7 @@ section:where(.invert) {
 section {
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
   font-size: 2.4em;
+  background-color: #f5f1eb;
   --theme-color-alt: #08384d;
   --theme-color-alt-light: #f80; 
 }

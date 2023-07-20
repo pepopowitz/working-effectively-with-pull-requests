@@ -6,7 +6,7 @@ footer: '@pepopowitz | pull-requests.stevenhicks.me'
 
 <!-- _class: title -->
 
-![bg opacity:50%](images/cover.jpg)
+![bg opacity:50%](images/cover-gradient.jpg)
 
 # Working Effectively<br/>With Pull Requests
 
@@ -174,7 +174,7 @@ an opportunity to share knowledge
 
 <!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
 
-# This is a **Pull Request (PR)** talk.
+# This is a <br/> **Pull Request (PR)** <br/> talk.
 
 <!-- we'll talk about using pull requests specifically through GitHub  -->
 <!-- most of what we're going to talk about is applicable to other source control platforms -->
@@ -185,7 +185,7 @@ an opportunity to share knowledge
 
 <!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
 
-# This is a ~~Pull Request (PR)~~ **culture** talk.
+# This is a <br/> ~~Pull Request (PR)~~ <br/> **culture** talk.
 
 <!-- but more than GitHub, more than pull requests or merge requests, this is a talk about culture -->
 <!-- and more specifically, asynchronous collaborative culture -->
@@ -206,7 +206,7 @@ an opportunity to share knowledge
 
 <!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 | 7"  -->
 
-# Practice **curiosity** over judgement.
+# Practice **curiosity** <br/> over judgement.
 
 <!-- prettier-ignore -->
 1) Ask, don't guess.
@@ -549,6 +549,8 @@ on the code side of things
 
 <!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
 
+![bg opacity:50%](images/cover-gradient.jpg)
+
 ## Good commits are **atomic**.
 
 <!-- prettier-ignore -->
@@ -607,6 +609,8 @@ Give the juniors credit to help build their GitHub portfolio.
 
 2. github.com/git-duet/git-duet
 
+todo: screenshot of pear
+
 <!--
 
 A couple options for tools to make it easier to give credit when pairing
@@ -623,9 +627,193 @@ I recommend pear because my former coworker wrote it and it's a nice lightweight
 
 # 4. Good pull requests.
 
+<!-- we finally made it! -->
+
 ---
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+
+# Good PRs are **concise** and **cohesive**.
+
+<!--
+the tendency is to include everything you did since your last PR in this one you've just opened
+
+often that violates concise or cohesive
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Are concise and cohesive._ | 5 | 6 | 7"  -->
+
+## Break up changes that require a **different mindset** to review.
+
+<!-- prettier-ignore -->
+1) By architectural layer.
+<!-- prettier-ignore -->
+2) By infrastructural vs implementation.
+<!-- prettier-ignore -->
+3) By risky vs routine.
+
+<!--
+this is my guidance for separating pull requests
+
+when a PR contains different types of work that require different mindets to review, it's more likely to draw the LGTM response, which usually means "there were too many things going on and I didn't totally get it all, but I inherently trust you."
+
+1 - api vs front-end, etc
+2 - includes the "walking skeleton" approach, where you start with a PR that just puts the infrastructure in place so that different parts _can_ function together...then implementing each of the functions into the skeleton.
+3 - routine work that follows existing patterns usually gets "hey you missed this" type of feedback; novel work that takes thoughtful consideration of approaches invites more theoretical feedback.
+
+Ideally you can do this with separate PRs.
+If you can't, at the very least practice good commit hygiene so that reviewers may easily review the risky changes separate from the routine changes, for example.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+
+# Good PRs **show progress**.
+
+<!-- prettier-ignore -->
+1) Draft/Work In Progress (WIP) PRs.
+<!-- prettier-ignore -->
+2) Prototypes.
+<!-- prettier-ignore -->
+3) Walking Skeletons.
+<!-- prettier-ignore -->
+4) Requests For Comments (RFCs).
+
+<!--
+
+waiting until the very end for feedback results in more re-work
+
+than collecting feedback along the way.
+
+1 - use the draft feature if you remember it exists 😅 just make sure it's clearly marked as experimental/incomplete.
+
+2 - build prototypes that reviewers can play with by checking out the PR's branch
+
+3 - build the infrastructure for a feature, and let people review that before you fill in the guts.
+
+4 - these are technically better served as issues, but opening them can help you create a more successful PR.
+
+...
+
+I give you this advice knowing full well that it is my own biggest struggle
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Show progress._ | 5 | 6 | 7"  -->
+
+## Perfect is the **enemy of good**.
+
+<!--
+
+Again, this is as much a reminder to myself as it is to you,
+
+...
+
+When it comes to PRs, perfection might be getting in the way of shipping things.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+
+# Good PRs **provide context**.
+
+<!--
+
+So that you can avoid the round-trips of clarifying questions, which in an asynchronous environment can drag things on and on and on
+
+One rule to live by ...
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+
+## Don't **assume** prior knowledge.
+
+<!--
+
+Even if your reviewers have perfect context when they review the PR you opened today
+
+In a month, when someone's looking back at this work, trying to figure out when, why, and how a feature was introduced...
+
+maybe that person is you...
+
+that context and knowledge won't be there. It's really helpful to have it all written up for posterity.
+
+ -->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+
+## something something "tell them instead of waiting for them to ask"
+
+<!-- prettier-ignore -->
+1) Describe motivation/background/problem solved.
+<!-- prettier-ignore -->
+2) Explain reasoning.
+<!-- prettier-ignore -->
+3) Describe alternatives considered.
+
+<!--
+
+1 -
+
+2 - why does this new code exist?
+
+3 - and why you chose this approach over the others
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+
+## **Show**, don't tell.
+
+### Compare the **before** and **after** states.
+
+todo: screenshot of before & after
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+
+## **Show**, don't tell.
+
+### Explain non-obvious lines of code.
+
+todo: screenshot of lines explanation
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+
+## **Show**, don't tell.
+
+### Show impact not obvious in the code.
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+
+# Good PRs **spread knowledge**.
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+
+# Good PRs **radiate intent**.
 
 ---
 
