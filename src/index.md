@@ -174,6 +174,8 @@ an opportunity to share knowledge
 
 <!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
 
+![bg opacity:50%](images/aside-pr-symbols.jpg)
+
 # This is a <br/> **Pull Request (PR)** <br/> talk.
 
 <!-- we'll talk about using pull requests specifically through GitHub  -->
@@ -549,7 +551,7 @@ on the code side of things
 
 <!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
 
-![bg opacity:50%](images/cover-gradient.jpg)
+![bg opacity:50%](images/aside-atom.jpg)
 
 ## Good commits are **atomic**.
 
@@ -756,14 +758,14 @@ that context and knowledge won't be there. It's really helpful to have it all wr
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
 
-## something something "tell them instead of waiting for them to ask"
+## Proactively **explain**.
 
 <!-- prettier-ignore -->
-1) Describe motivation/background/problem solved.
+1) Describe **motivation**/background/problem solved.
 <!-- prettier-ignore -->
-2) Explain reasoning.
+2) Explain **reasoning**.
 <!-- prettier-ignore -->
-3) Describe alternatives considered.
+3) Describe **alternatives** considered.
 
 <!--
 
@@ -791,7 +793,7 @@ todo: screenshot of before & after
 
 ## **Show**, don't tell.
 
-### Explain non-obvious lines of code.
+### Explain **non-obvious** lines of code.
 
 todo: screenshot of lines explanation
 
@@ -801,7 +803,7 @@ todo: screenshot of lines explanation
 
 ## **Show**, don't tell.
 
-### Show impact not obvious in the code.
+### Show **impact** not obvious in the code.
 
 ---
 
@@ -809,11 +811,123 @@ todo: screenshot of lines explanation
 
 # Good PRs **spread knowledge**.
 
+<!--
+
+whether it's to build shared understanding,
+
+or for mentoring purposes,
+
+or for the lottery factor,
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Spread knowledge._ | 5 | 6 | 7"  -->
+
+## Share your **learnings**.
+
+todo: image of a PR that shares learnings (from artsy article?)
+
+<!--
+
+maybe it's something you learned about the product
+
+maybe it's something you learned about the programming language
+
+maybe it's something everyone else on your team already knows about....
+
+but maybe it's not. In which case it's worth sharing.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Spread knowledge._ | 5 | 6 | 7"  -->
+
+## Share **development tips**.
+
+todo: image of a PR that shares development tips. (artsy article?)
+
+<!--
+
+how did I do this thing that you might also need to do?
+
+what cool dev tool features did I learn about while testing this?
+
+-->
+
 ---
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
 
 # Good PRs **radiate intent**.
+
+<!--
+
+use your turn signal
+
+to remove ambiguity and uncertainty
+
+because it's ambiguity and uncertainty that leads to those round trips
+
+which we know take a long time to resolve when working asynchronously.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 | 7"  -->
+
+## Draft/WIP/"Do not merge".
+
+todo: image of draft/wip/do not merge PRs
+
+<!--
+
+let them know this isn't to be merged yet, or ever
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 | 7"  -->
+
+## **What's included**, and what's not?
+
+todo: github tasklist showing what's included and what's not
+
+<!--
+
+what is part of this PR, and what will you cover in a follow-up PR?
+
+on an epic level, what is included in this feature?
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 | 7"  -->
+
+## Assign **roles**.
+
+<!-- prettier-ignore -->
+* Assignee; reviewers.
+<!-- prettier-ignore -->
+* Establish a **working agreement** to remove ambiguity.
+  - Who merges?
+  - What is a reviewer's responsibility?
+
+<!--
+
+assign the PR to someone, and add reviewers...
+
+
+
+whether documented or enforced by convention or automation
+
+
+-->
 
 ---
 
