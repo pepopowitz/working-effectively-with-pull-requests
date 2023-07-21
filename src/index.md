@@ -35,6 +35,10 @@ Camunda has a booth, come visit!
 
 ---
 
+todo: self-promotion re: podcast & stream
+
+---
+
 ## 1. What even is a pull request (PR)?
 
 ## 2. Ground rules.
@@ -920,12 +924,9 @@ on an epic level, what is included in this feature?
 
 <!--
 
-assign the PR to someone, and add reviewers...
+1 - assign the PR to someone, and add reviewers...
 
-
-
-whether documented or enforced by convention or automation
-
+2 - whether documented or enforced by convention or automation
 
 -->
 
@@ -940,6 +941,311 @@ whether documented or enforced by convention or automation
 ---
 
 <!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 | 7"  -->
+
+# Good reviews <br/>**communicate effectively**.
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+
+## Be respectful.
+
+<!--
+
+I don't think I need to explain this any further
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+
+## Be direct.
+
+> "What do you think about doing X instead of Y?"
+
+> "I think we should X instead of Y, because Z."
+
+<!--
+
+a few years ago I started doing this thing where I wanted to be extra friendly and considerate
+
+And I'd put comments phrased like the top
+
+But what I really meant was the bottom
+
+The top was too indirect and passive
+
+The top can be fine if you really don't have an opinion,
+
+just make sure you're saying what you mean.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+
+## Ask questions.
+
+<!-- prettier-ignore -->
+1) Don't make assumptions.
+<!-- prettier-ignore -->
+2) Get help understanding the things you don't understand.
+<!-- prettier-ignore -->
+3) Take it synchronous if it's still unclear.
+
+<!--
+
+remember, curiosity over judgement
+
+1 - when something doesn't make sense, it usually doesn't mean the author is dumb, it means you don't understand how they approached the problem
+
+2 - and then ask them to explain it so you can understand it
+
+3 - if things go back and forth more than a couple times in comments, don't be afraid to take it to a synchronous conversation
+
+just make sure that any decisions that come out of that conversation, or discoveries, or anything interesting, makes its way back to the PR as a comment.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+
+## Be friendly?
+
+<!-- prettier-ignore -->
+1) Use emojis and GIFs?
+
+<!--
+
+question mark because it's my personal rule but I think it's a stretch to tell you to live this way
+
+also questionable on using emojis/gifs because they can be misinterpreted
+
+🙏 being interpreted as high five instead of oh dear I hope this works
+LOL interpreted as lots of love
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+
+## Be friendly?
+
+### [GIFs for GitHub extension](https://chrome.google.com/webstore/detail/gifs-for-github/dkgjnpbipbdaoaadbdhpiokaemhlphep)
+
+todo: image of gifs for github
+
+![w:400 right-justified](./images/atom.jpg)
+
+<!--
+
+I will recommend this gif plugin
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 | 7"  -->
+
+# Good reviews <br/>request changes <br/> **for the right reasons**.
+
+<!--
+
+and I've got some bad news for you ...
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 | 7"  -->
+
+## **You** define **The Right Reasons**.
+
+<!--
+
+I'm not going to tell you what the right reasons are
+
+I recommend you establish a team agreement on what is fair game for requesting changes
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 | 7"  -->
+
+## Are these **The Right Reasons**?
+
+<!-- prettier-ignore -->
+1) The code could be more readable.
+<!-- prettier-ignore -->
+2) Code that was not added or edited in the PR is wrong.
+<!-- prettier-ignore -->
+3) The syntax doesn't match my preference.
+
+<!--
+
+1 - careful! it's subjective
+
+if I've got a function that needs to do four unrelated things in sequence, and each thing takes 2 lines of code,
+would you rather see everything happen in one function, or one function that calls 4 2-line functions?
+
+functional programmer's code vs javascript developers?
+
+my personal rule is that I don't request changes for readability
+unless I can use specific language about why it is not readable enough
+
+2 - my rule = if you want details/implementation changed, merge & submit a new PR (assuming it's a matter of taste)
+
+3 - my rule: if you can't give a subjective reason the code is improved, it's taste, and no one wins.
+
+But, if you're a dictator & subjects power dynamic, the dictator wins
+
+...
+
+all this to say, establish a working agreement!
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 | 7"  -->
+
+## Other guidance for requesting changes
+
+<!-- prettier-ignore -->
+1) Be explicit about **power dynamics**.
+<!-- prettier-ignore -->
+2) Practice **curiosity over judgement**.
+<!-- prettier-ignore -->
+3) Let the **robots** help.
+
+<!--
+
+1 - dictator & subjects? (aka DRI)
+
+2 - Why did they do it differently than I would have?
+
+- Does it even matter?
+
+- Will I be able to understand this code when I stumble across it in 3 months?
+
+3 - automate as much as possible
+
+- prettier, linting, etc
+
+- if any frequent manual checks can be automated, do it! that should be a robot's job.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 | 7"  -->
+
+# Good reviews **provide context**.
+
+<!-- prettier-ignore -->
+1) Tell them **why** the code should change.
+<!-- prettier-ignore -->
+2) Point to **other code**.
+<!-- prettier-ignore -->
+3) Point to **conversations** outside of GitHub.
+
+<!--
+
+1
+If there's a reason something needs to change, give them information about why
+- why can't a variable be named X here?
+- what is the negative impact that they're not seeing?
+- share your understanding of the system
+- don't just say "this won't work", tell them what the effect in the system will be
+- there is a balance - be careful about excessive teaching because it can be condescending, and establish an unwanted power dynamic.
+
+2
+- what's an example they can follow?
+
+3
+- (conversations, tickets, etc)
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 | 7"  -->
+
+# Good reviews **give direction**.
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 | 7"  -->
+
+## 1. Use the **suggestion** feature.
+
+todo: screenshot of suggestion feature
+
+<!--
+
+Allows a person to commit the prescribed changes directly in the GitHub UI.
+
+Especially nice for very small changes.
+
+Becomes more difficult to manage when there are synchronized suggestions in multiple places,
+like changing a variable name.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 | 7"  -->
+
+## 2. Explicitly **assign responsibilities**.
+
+> Re-assigning to you to merge when you've fixed the broken test.
+
+<!--
+
+- assign to someone to take action, if it isn't obvious.
+- e.g. "assigning to you to merge when you feel the test coverage is adequate"
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 | 7"  -->
+
+## 3. State **the importance** of addressing the feedback.
+
+<!--
+
+clearly!
+
+- Is this feedback blocking or non-blocking?
+- are you expecting them to address this in this PR? another?
+- how much does it matter to you that they address it?
+  - if you're picking nits, and you don't really care much if they're fixed, they might not know that
+  - especially depending on the power dynamic.
+  - I sometimes use the 1 to 10 on the "give a shit" meter to describe how much I care.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 | 7"  -->
+
+### [Netlify's feedback ladder](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/).
+
+![indented](images/aside-netlify-feedback.png)
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 | 7"  -->
+
+### [Conventional Comments](https://conventionalcomments.org/).
+
+![w:1000px indented](images/aside-conventional-comments.png)
 
 ---
 

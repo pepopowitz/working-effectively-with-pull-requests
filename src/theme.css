@@ -101,6 +101,21 @@ img[alt~="center"] {
   margin: 0 auto;
 }
 
+/* vertically center images on the right side */
+img[alt="right-justified"] {
+  position: absolute;
+  right: 100px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+
+/* vertically center images on the right side */
+img[alt="indented"] {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
 /* highlighting text */
 li strong {
   font-weight: inherit;
