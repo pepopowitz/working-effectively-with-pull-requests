@@ -6,7 +6,7 @@ footer: '@pepopowitz | pull-requests.stevenhicks.me'
 
 <!-- _class: title -->
 
-![bg opacity:50%](images/cover-gradient.jpg)
+![bg opacity:70%](images/cover.jpg)
 
 # Working Effectively<br/>With Pull Requests
 
@@ -35,7 +35,27 @@ Camunda has a booth, come visit!
 
 ---
 
-todo: self-promotion re: podcast & stream
+<!-- _class: invert -->
+
+# Shame~~less~~ful self-promotion.
+
+## A Developer Experience Podcast.
+
+### [anchor.fm/a-developer-experience](https://anchor.fm/a-developer-experience)
+
+todo: image of logo
+
+---
+
+<!-- _class: invert -->
+
+# Shame~~less~~ful self-promotion.
+
+## 2 Rad Dads.
+
+### [youtube.com/@2RadDads](https://www.youtube.com/@2RadDads)
+
+todo: image of logo
 
 ---
 
@@ -51,8 +71,6 @@ todo: self-promotion re: podcast & stream
 
 ## 6. Getting it merged.
 
-## 7. Following up.
-
 ---
 
 <!-- section 1: What even is a PR? -->
@@ -65,7 +83,7 @@ todo: self-promotion re: podcast & stream
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A pull request (PR) is a request to **incorporate code changes**.
 
@@ -77,7 +95,7 @@ aka merge request
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR includes a **description**.
 
@@ -87,7 +105,7 @@ todo: image of description field
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR includes **the code changes**.
 
@@ -97,13 +115,13 @@ todo: image of code diff
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR is a means to do a **code review**.
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 todo: image of talking about the code
 
@@ -111,7 +129,7 @@ todo: image of talking about the code
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 todo: image of suggesting changes
 
@@ -119,7 +137,7 @@ todo: image of suggesting changes
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 todo: image of approving
 
@@ -127,7 +145,7 @@ todo: image of approving
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 todo: image of merging
 
@@ -135,13 +153,13 @@ todo: image of merging
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
 # A PR is **communication** and **collaboration**.
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR is an opportunity to **share knowledge**.
 
@@ -165,7 +183,7 @@ an opportunity to share knowledge
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR provides a historical record.
 
@@ -176,7 +194,7 @@ an opportunity to share knowledge
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:50%](images/aside-pr-symbols.jpg)
 
@@ -189,7 +207,7 @@ an opportunity to share knowledge
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
 # This is a <br/> ~~Pull Request (PR)~~ <br/> **culture** talk.
 
@@ -210,7 +228,7 @@ an opportunity to share knowledge
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
 # Practice **curiosity** <br/> over judgement.
 
@@ -223,7 +241,7 @@ an opportunity to share knowledge
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
 # ~~Assume positive intent.~~
 
@@ -239,7 +257,7 @@ We can't just magically wave our hands and say "this is now a safe space, you sh
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
 # **Act** with compassion.
 
@@ -262,7 +280,7 @@ and it also means enforcing psychological safety by calling out bad acts
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Act with compassion._ | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** _Act with compassion._ | 3 | 4 | 5 | 6 "  -->
 
 TODO: image (carrots in a garden)
 
@@ -290,7 +308,7 @@ Calling out bad acts in pull request reviews is a small but important contributi
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
 # Be aware of **power dynamics**.
 
@@ -302,7 +320,7 @@ If you think "this doesn't affect me,"
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Be aware of power dynamics._ | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** _Be aware of power dynamics._ | 3 | 4 | 5 | 6 "  -->
 
 ## If you aren't **aware** of a power dynamic, you're probably on the **strong** side of it.
 
@@ -314,7 +332,7 @@ And when you don't know about a power dynamic in a relationship, there's a good 
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Be aware of power dynamics._ | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** _Be aware of power dynamics._ | 3 | 4 | 5 | 6 "  -->
 
 ## Power dynamics can be **conflicting**.
 
@@ -331,7 +349,7 @@ That's a power dynamic in the opposite direction, and it also appears in the int
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
 # Be aware of **power dynamics**.
 
@@ -370,7 +388,7 @@ Feedback from the strong side takes on a very heavy weight. That weight can easi
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
 # **Communicate** effectively.
 
@@ -417,7 +435,7 @@ Example: me saying "what do you think about..." when I meant "we should do make 
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
 # Communicate effectively **asynchronously**.
 
@@ -457,7 +475,7 @@ giving the reader enough to go on so that they don't need to ask questions.
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Communicate effectively asynchronously._ | 3 | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | **2: Ground rules.** _Communicate effectively asynchronously._ | 3 | 4 | 5 | 6 "  -->
 
 todo: image of poor text exchange
 
@@ -485,13 +503,13 @@ which lend themselves to a frictionless PR experience.
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 "  -->
 
 # Configure the project for **collaboration**.
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
 
 ## Communicate **expectations**.
 
@@ -505,7 +523,7 @@ so there are a couple things we can do to enforce norms
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
 
 ## Provide **clear** and **direct** templates.
 
@@ -525,7 +543,7 @@ Example: checklist in screenshot!
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
 
 ## **Automate** the automatable.
 
@@ -543,7 +561,7 @@ Ex: Amarabot to identify missing duplication in versions
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 "  -->
 
 # Practice good commit **hygiene**.
 
@@ -553,7 +571,7 @@ on the code side of things
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
 
 ![bg opacity:50%](images/aside-atom.jpg)
 
@@ -575,7 +593,7 @@ https://www.conventionalcommits.org/en/v1.0.0/
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
 
 ## Good commits **tell a story**.
 
@@ -591,7 +609,7 @@ It's nice to provide people that option
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
 
 ## Good commits include **all contributors**.
 
@@ -607,7 +625,7 @@ Give the juniors credit to help build their GitHub portfolio.
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
 
 ## Good commits include **all contributors**.
 
@@ -637,7 +655,7 @@ I recommend pear because my former coworker wrote it and it's a nice lightweight
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
 
 # Good PRs are **concise** and **cohesive**.
 
@@ -650,7 +668,7 @@ often that violates concise or cohesive
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Are concise and cohesive._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Are concise and cohesive._ | 5 | 6 "  -->
 
 ## Break up changes that require a **different mindset** to review.
 
@@ -677,7 +695,7 @@ If you can't, at the very least practice good commit hygiene so that reviewers m
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
 
 # Good PRs **show progress**.
 
@@ -712,7 +730,7 @@ I give you this advice knowing full well that it is my own biggest struggle
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Show progress._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Show progress._ | 5 | 6 "  -->
 
 ## Perfect is the **enemy of good**.
 
@@ -728,7 +746,7 @@ When it comes to PRs, perfection might be getting in the way of shipping things.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
 
 # Good PRs **provide context**.
 
@@ -742,7 +760,7 @@ One rule to live by ...
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
 
 ## Don't **assume** prior knowledge.
 
@@ -760,7 +778,7 @@ that context and knowledge won't be there. It's really helpful to have it all wr
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
 
 ## Proactively **explain**.
 
@@ -783,7 +801,7 @@ that context and knowledge won't be there. It's really helpful to have it all wr
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
 
 ## **Show**, don't tell.
 
@@ -793,7 +811,7 @@ todo: screenshot of before & after
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
 
 ## **Show**, don't tell.
 
@@ -803,7 +821,7 @@ todo: screenshot of lines explanation
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
 
 ## **Show**, don't tell.
 
@@ -811,7 +829,7 @@ todo: screenshot of lines explanation
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
 
 # Good PRs **spread knowledge**.
 
@@ -827,7 +845,7 @@ or for the lottery factor,
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Spread knowledge._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Spread knowledge._ | 5 | 6 "  -->
 
 ## Share your **learnings**.
 
@@ -847,7 +865,7 @@ but maybe it's not. In which case it's worth sharing.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Spread knowledge._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Spread knowledge._ | 5 | 6 "  -->
 
 ## Share **development tips**.
 
@@ -863,7 +881,7 @@ what cool dev tool features did I learn about while testing this?
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
 
 # Good PRs **radiate intent**.
 
@@ -881,7 +899,7 @@ which we know take a long time to resolve when working asynchronously.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
 
 ## Draft/WIP/"Do not merge".
 
@@ -895,7 +913,7 @@ let them know this isn't to be merged yet, or ever
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
 
 ## **What's included**, and what's not?
 
@@ -911,7 +929,7 @@ on an epic level, what is included in this feature?
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
 
 ## Assign **roles**.
 
@@ -940,13 +958,13 @@ on an epic level, what is included in this feature?
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
 
 # Good reviews <br/>**communicate effectively**.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
 
 ## Be respectful.
 
@@ -958,7 +976,7 @@ I don't think I need to explain this any further
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
 
 ## Be direct.
 
@@ -984,7 +1002,7 @@ just make sure you're saying what you mean.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
 
 ## Ask questions.
 
@@ -1011,7 +1029,7 @@ just make sure that any decisions that come out of that conversation, or discove
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
 
 ## Be friendly?
 
@@ -1031,7 +1049,7 @@ LOL interpreted as lots of love
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
 
 ## Be friendly?
 
@@ -1049,7 +1067,7 @@ I will recommend this gif plugin
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
 
 # Good reviews <br/>request changes <br/> **for the right reasons**.
 
@@ -1061,7 +1079,7 @@ and I've got some bad news for you ...
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 "  -->
 
 ## **You** define **The Right Reasons**.
 
@@ -1075,7 +1093,7 @@ I recommend you establish a team agreement on what is fair game for requesting c
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 "  -->
 
 ## Are these **The Right Reasons**?
 
@@ -1112,7 +1130,7 @@ all this to say, establish a working agreement!
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 "  -->
 
 ## Other guidance for requesting changes
 
@@ -1143,7 +1161,7 @@ all this to say, establish a working agreement!
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
 
 # Good reviews **provide context**.
 
@@ -1174,13 +1192,15 @@ If there's a reason something needs to change, give them information about why
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
+
+![bg opacity:50%](images/aside-directions.jpg)
 
 # Good reviews **give direction**.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 "  -->
 
 ## 1. Use the **suggestion** feature.
 
@@ -1199,7 +1219,7 @@ like changing a variable name.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 "  -->
 
 ## 2. Explicitly **assign responsibilities**.
 
@@ -1214,7 +1234,7 @@ like changing a variable name.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 "  -->
 
 ## 3. State **the importance** of addressing the feedback.
 
@@ -1233,7 +1253,7 @@ clearly!
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 "  -->
 
 ### [Netlify's feedback ladder](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/).
 
@@ -1241,7 +1261,7 @@ clearly!
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 "  -->
 
 ### [Conventional Comments](https://conventionalcomments.org/).
 
@@ -1257,19 +1277,61 @@ clearly!
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Getting it merged.** | 7"  -->
+<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Getting it merged.** "  -->
+
+## The **author** has responsibilities <br/>to **support maintainers**.
+
+<!--
+
+So they don't burn out
+
+If the maintainer asks you to rebase on `main`, you should do that.
+
+You may ask for help if you don't know how to do the thing they're asking you to do...
+
+But it is important to abide by the norms of the project, which unfortunately vary from one project to another.
+
+-->
 
 ---
 
-<!-- section 7: Following up. -->
+<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Getting it merged.** "  -->
 
-<!-- _class: invert -->
+## The **maintainers** have responsibilities <br/>to **support contributors**.
 
-# 7. Following up.
+<!--
+
+at the same time....
+
+...to remove friction
+
+and enable people to contribute as easily as possible
+
+because gatekeeping contributions to a project, whether intentional or unintentional, is a good way to prevent contributions.
+
+-->
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | 5 | 6 | **7: Following up.**"  -->
+<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Getting it merged.** "  -->
+
+## The best way to **maintain this balance** is to <br/>**establish norms** and **communicate** them clearly.
+
+<!--
+
+through some sort of agreement
+
+probably the worst way to handle this is to do what we do on my team:
+
+handle the responsibilities as maintainers differently per person.
+
+-->
+
+---
+
+TODO: capture it all with one final slide?
+
+maybe list the ground rules again?
 
 ---
 
@@ -1282,6 +1344,18 @@ clearly!
 ##### 🌎 pull-requests.stevenhicks.me
 
 ##### ✉️ stevenhicks.me/where/
+
+---
+
+<!-- section 7: Following up. -->
+
+<!-- _class: invert -->
+
+# 7. Following up.
+
+---
+
+<!-- _header: "1 | 2 | 3 | 4 | 5 | 6 | **7: Following up.**"  -->
 
 ---
 
