@@ -134,3 +134,8 @@ li strong {
   font-weight: inherit;
   color: var(--heading-strong-color);
 }
+
+blockquote strong {
+  font-weight: inherit;
+  color: var(--heading-strong-color);
+}

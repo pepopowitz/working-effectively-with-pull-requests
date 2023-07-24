@@ -6,7 +6,7 @@ footer: '@pepopowitz | pull-requests.stevenhicks.me'
 
 <!-- _class: title -->
 
-![bg opacity:70%](images/cover.jpg)
+![bg opacity:80%](images/cover.jpg)
 
 # Working Effectively<br/>With Pull Requests
 
@@ -196,7 +196,7 @@ an opportunity to share knowledge
 
 <!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
-![bg opacity:50%](images/aside-pr-symbols.jpg)
+![bg opacity:80%](images/aside-pr-symbols.jpg)
 
 # This is a <br/> **Pull Request (PR)** <br/> talk.
 
@@ -208,6 +208,8 @@ an opportunity to share knowledge
 ---
 
 <!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-flower.jpg)
 
 # This is a <br/> ~~Pull Request (PR)~~ <br/> **culture** talk.
 
@@ -229,6 +231,8 @@ an opportunity to share knowledge
 ---
 
 <!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-thinking.jpg)
 
 # Practice **curiosity** <br/> over judgement.
 
@@ -259,6 +263,8 @@ We can't just magically wave our hands and say "this is now a safe space, you sh
 
 <!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
+![bg opacity:80%](images/aside-uncle-sam.jpg)
+
 # **Act** with compassion.
 
 1. Act with positive intent.
@@ -282,7 +288,7 @@ and it also means enforcing psychological safety by calling out bad acts
 
 <!-- _header: "1 | **2: Ground rules.** _Act with compassion._ | 3 | 4 | 5 | 6 "  -->
 
-TODO: image (carrots in a garden)
+![bg opacity:80%](images/carrots.jpg)
 
 <!--
 I said this is a talk about culture, and I want to share my favorite analogy
@@ -310,7 +316,9 @@ Calling out bad acts in pull request reviews is a small but important contributi
 
 <!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
-# Be aware of **power dynamics**.
+![bg opacity:80%](images/aside-talk-down.jpg)
+
+# Be aware of <br/>**power dynamics**.
 
 <!--
 Power dynamics have a huge impact on collaboration, especially in the interpretation of ambiguous communication.
@@ -390,6 +398,8 @@ Feedback from the strong side takes on a very heavy weight. That weight can easi
 
 <!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
 
+![bg opacity:80%](images/aside-communication.jpg)
+
 # **Communicate** effectively.
 
 <!--
@@ -419,7 +429,7 @@ Example: me saying "what do you think about..." when I meant "we should do make 
 -->
 
 <!-- prettier-ignore -->
-1) Use clear, concise, and unambiguous language.
+1) Use clear, concise, and <br/>unambiguous language.
 
 <!-- prettier-ignore -->
 2) Ask clarifying questions.
@@ -477,7 +487,7 @@ giving the reader enough to go on so that they don't need to ask questions.
 
 <!-- _header: "1 | **2: Ground rules.** _Communicate effectively asynchronously._ | 3 | 4 | 5 | 6 "  -->
 
-todo: image of poor text exchange
+![bg](images/full-text-convo.jpg)
 
 <!--
 
@@ -545,6 +555,8 @@ Example: checklist in screenshot!
 
 <!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
 
+![bg opacity:80%](images/aside-robot.jpg)
+
 ## **Automate** the automatable.
 
 <!--
@@ -563,6 +575,8 @@ Ex: Amarabot to identify missing duplication in versions
 
 <!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 "  -->
 
+![bg opacity:80%](images/aside-toothbrush.jpg)
+
 # Practice good commit **hygiene**.
 
 <!--
@@ -573,7 +587,7 @@ on the code side of things
 
 <!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
 
-![bg opacity:50%](images/aside-atom.jpg)
+![bg opacity:80%](images/aside-atom.jpg)
 
 ## Good commits are **atomic**.
 
@@ -697,6 +711,8 @@ If you can't, at the very least practice good commit hygiene so that reviewers m
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
 
+![bg opacity:80%](images/aside-loading.jpg)
+
 # Good PRs **show progress**.
 
 <!-- prettier-ignore -->
@@ -732,6 +748,8 @@ I give you this advice knowing full well that it is my own biggest struggle
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Show progress._ | 5 | 6 "  -->
 
+![bg opacity:80%](images/aside-rubiks.jpg)
+
 ## Perfect is the **enemy of good**.
 
 <!--
@@ -748,6 +766,8 @@ When it comes to PRs, perfection might be getting in the way of shipping things.
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
 
+![bg opacity:80%](images/aside-clues.jpg)
+
 # Good PRs **provide context**.
 
 <!--
@@ -761,6 +781,8 @@ One rule to live by ...
 ---
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-donkey.jpg)
 
 ## Don't **assume** prior knowledge.
 
@@ -831,7 +853,9 @@ todo: screenshot of lines explanation
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
 
-# Good PRs **spread knowledge**.
+![bg opacity:80%](images/aside-spread.jpg)
+
+# Good PRs <br/>**spread knowledge**.
 
 <!--
 
@@ -882,6 +906,8 @@ what cool dev tool features did I learn about while testing this?
 ---
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-turn-signal.jpg)
 
 # Good PRs **radiate intent**.
 
@@ -960,13 +986,17 @@ on an epic level, what is included in this feature?
 
 <!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
 
+![bg opacity:80%](images/aside-communication.jpg)
+
 # Good reviews <br/>**communicate effectively**.
 
 ---
 
 <!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
 
-## Be respectful.
+![bg opacity:80%](images/aside-shake-hands.jpg)
+
+## Be **respectful**.
 
 <!--
 
@@ -980,9 +1010,9 @@ I don't think I need to explain this any further
 
 ## Be direct.
 
-> "What do you think about doing X instead of Y?"
+> "**What do you think** about doing X instead of Y?"
 
-> "I think we should X instead of Y, because Z."
+> "I think **we should do** X instead of Y, because Z."
 
 <!--
 
@@ -1068,6 +1098,8 @@ I will recommend this gif plugin
 ---
 
 <!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
+
+![bg opacity:80%](images/aside-bachelor.jpg)
 
 # Good reviews <br/>request changes <br/> **for the right reasons**.
 
@@ -1194,9 +1226,9 @@ If there's a reason something needs to change, give them information about why
 
 <!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
 
-![bg opacity:50%](images/aside-directions.jpg)
+![bg opacity:80%](images/aside-directions.jpg)
 
-# Good reviews **give direction**.
+# Good reviews <br/>**give direction**.
 
 ---
 
