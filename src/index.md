@@ -304,6 +304,8 @@ And that starts with you.
 
 and it also means enforcing psychological safety by calling out bad acts
 
+bad acts, not actors, because they don't know they're doing something bad
+
 -->
 
 ---
@@ -424,12 +426,29 @@ Feedback from the strong side takes on a very heavy weight. That weight can easi
 
 # **Communicate** effectively.
 
+<!-- prettier-ignore -->
+1) Use clear, concise, and <br/>unambiguous language.
+
+<!-- prettier-ignore -->
+2) Ask clarifying questions.
+
+<!-- prettier-ignore -->
+3) Radiate intent.
+
+<!-- prettier-ignore -->
+4) State the unstated.
+
+<!-- prettier-ignore -->
+5) Be direct (compassionately).
+
 <!--
 this is probably a non-controversial statement
 we're all trying to do this in a lot of ways
 here are some communication tips that are critical to a good PR interaction.
 
 ...
+
+often it's easier to notice others using unclear ambiguous language, so help them out by letting them know you don't understand
 
 ...
 
@@ -446,24 +465,8 @@ Assumptions, context, conclusions...all of these things can easily be misinterpr
 
 ...
 
-Example: me saying "what do you think about..." when I meant "we should do make this change"
 
 -->
-
-<!-- prettier-ignore -->
-1) Use clear, concise, and <br/>unambiguous language.
-
-<!-- prettier-ignore -->
-2) Ask clarifying questions.
-
-<!-- prettier-ignore -->
-3) Radiate intent.
-
-<!-- prettier-ignore -->
-4) State the unstated.
-
-<!-- prettier-ignore -->
-5) Be direct (compassionately).
 
 ---
 
@@ -563,8 +566,8 @@ so there are a couple things we can do to enforce norms
 
 <!--
 
-- Suggest a format to enforce consistency of PRs, which can reduce cognitive load
-- use comments to give guidance
+- templates Suggest a format to enforce consistency of PRs, which can reduce cognitive load
+- we use comments to give guidance
 - Use checklists to guide progress and establish requirements
 - Provide options to keep people within the rails ?
 
@@ -628,15 +631,13 @@ on the code side of things
 <!-- prettier-ignore -->
 1) Small.
 <!-- prettier-ignore -->
-2) Clear and concise title.
+2) Clear and concise message.
 <!-- prettier-ignore -->
 3) Description to add context.
 
 <!--
 You can amend them along the way to meet these criteria
 
-Maybe: you can use a framework like conventional commits?
-https://www.conventionalcommits.org/en/v1.0.0/
 -->
 
 ---
@@ -692,9 +693,9 @@ and they don't add any context
 
 <!--
 
-This is especially important when seniors pair with juniors
+This is especially important when more experienced pair with less experienced
 
-Give the juniors credit to help build their GitHub portfolio.
+Give the less experience credit to help build their GitHub portfolio.
 
 -->
 
@@ -764,7 +765,8 @@ this is my guidance for separating pull requests
 when a PR contains different types of work that require different mindets to review, it's more likely to draw the LGTM response, which usually means "there were too many things going on and I didn't totally get it all, but I inherently trust you."
 
 1 - api vs front-end, etc
-2 - includes the "walking skeleton" approach, where you start with a PR that just puts the infrastructure in place so that different parts _can_ function together...then implementing each of the functions into the skeleton.
+2 - infra invites more thorough review of concepts; implementation is more "are you following the existing patterns."
+  - includes the "walking skeleton" approach, where you start with a PR that just puts the infrastructure in place so that different parts _can_ function together...then implementing each of the functions into the skeleton.
 3 - routine work that follows existing patterns usually gets "hey you missed this" type of feedback; novel work that takes thoughtful consideration of approaches invites more theoretical feedback.
 
 Ideally you can do this with separate PRs.
@@ -796,6 +798,8 @@ waiting until the very end for feedback results in more re-work
 than collecting feedback along the way.
 
 1 - use the draft feature if you remember it exists 😅 just make sure it's clearly marked as experimental/incomplete.
+
+  - we'll talk more about this in a bit
 
 2 - build prototypes that reviewers can play with by checking out the PR's branch
 
@@ -1303,7 +1307,7 @@ functional programmer's code vs javascript developers?
 my personal rule is that I don't request changes for readability
 unless I can use specific language about why it is not readable enough
 
-2 - my rule = if you want details/implementation changed, merge & submit a new PR (assuming it's a matter of taste)
+2 - how wrong does it have to be to warrant sneaking into this PR vs creating another?
 
 3 - my rule: if you can't give a subjective reason the code is improved, it's taste, and no one wins.
 
