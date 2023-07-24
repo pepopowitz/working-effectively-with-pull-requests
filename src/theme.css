@@ -46,9 +46,17 @@ section:where(.invert) {
 section {
   font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
   font-size: 2.4em;
-  background-color: #f5f1eb;
-  --theme-color-alt: #08384d;
-  --theme-color-alt-light: #f80; 
+  background-color: #E3E4CC;
+  /* theme colors generated at https://coolors.co/e3e4cc-3dcee1-ee7b30-721121-003552 */
+  --h1-color: #003552;
+  --theme-color-alt: #003552;
+  --theme-color-alt-light: #3DCEE1; 
+  --heading-strong-color: #198F9F;
+  --color-accent-fg: #198F9F;
+  --color-fg-default: #003552;
+  --color-border-default: #198F9F;
+  /* --color-fg-muted: #57606a;
+  --color-fg-subtle: #6e7781; */
 }
 
 /* headings */
@@ -58,6 +66,11 @@ section h1 {
 
 section h2, section h3, section h4, section h5, section h6 {
   font-weight: normal;
+}
+
+/* put the underlines back on links! */
+section a {
+  text-decoration: underline;
 }
 
 section.invert {
