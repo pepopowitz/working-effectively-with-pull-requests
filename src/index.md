@@ -145,7 +145,7 @@ summarize the changes you'd like incorporated
 
 <!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
-todo: image of talking about the code (amara asking a question)
+![width:900 talking about code in a PR](images/aside-talk-about-code.png)
 
 <!-- so we can talk about the code changes -->
 
@@ -153,7 +153,7 @@ todo: image of talking about the code (amara asking a question)
 
 <!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
-todo: image of suggesting changes (me suggesting a11y changes to amara's pr)
+![width:900 code suggestion in a PR](images/aside-suggestion.png)
 
 <!-- and a reviewer can suggest changes -->
 
@@ -161,7 +161,7 @@ todo: image of suggesting changes (me suggesting a11y changes to amara's pr)
 
 <!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
-todo: image of approving
+![pr approval](images/aside-approve.png)
 
 <!-- and in the end, hopefully, the changes are approved. -->
 
@@ -169,7 +169,7 @@ todo: image of approving
 
 <!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
-todo: image of merging
+![merging a PR](images/aside-merge.png)
 
 <!-- so that the owner can incorporate the changes -->
 
@@ -545,7 +545,7 @@ which lend themselves to a frictionless PR experience.
 
 ## Communicate **expectations**.
 
-todo: screenshot of contributing.md
+![sample of contributing.md](images/aside-contributing.png)
 
 <!--
 frustratingly, this kind of documentation exists solely to point people to
@@ -559,14 +559,26 @@ so there are a couple things we can do to enforce norms
 
 ## Provide **clear** and **direct** templates.
 
-todo: screenshot of a PR template
+![width:900 github pr template](images/aside-pr-template.png)
 
 <!--
 
 - Suggest a format to enforce consistency of PRs, which can reduce cognitive load
+- use comments to give guidance
 - Use checklists to guide progress and establish requirements
 - Provide options to keep people within the rails ?
 
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
+
+## Provide **clear** and **direct** templates.
+
+## ![github pr template with squishy language](images/aside-squishy-template.png)
+
+<!--
 I emphasize clear and direct because any squishy language will just be ignored.
 
 Example: checklist in screenshot!
@@ -676,7 +688,7 @@ and they don't add any context
 
 ## Good commits include **all contributors**.
 
-todo: screenshot of a co-authored trailer, plus how it shows up in github (https://github.com/jonallured/pear/pull/31/commits) (collab with christina!)
+![github commit summary, showing multiple contributors](images/aside-all-contribs.png)
 
 <!--
 
@@ -884,7 +896,17 @@ that context and knowledge won't be there. It's really helpful to have it all wr
 
 ### Compare the **before** and **after** states.
 
-todo: screenshot of before & after
+![width:450 right-justified](images/aside-before-after.png)
+
+<!--
+
+I don't expect you to be able to read anything on here,
+but I think you can see the difference in size of those orange squares
+
+It's helpful to capture that kind of visual difference for a reviewer
+So they can see the effects without running the PR locally
+
+-->
 
 ---
 
@@ -910,9 +932,9 @@ todo: screenshot of before & after
 
 ## **Show**, don't tell.
 
-### Explain **non-obvious** lines of code.
+### Explain **non-obvious**<br/> lines of code.
 
-todo: screenshot of lines explanation
+![width:700 right-justified](images/aside-non-obvious.png)
 
 <!--
 
@@ -927,8 +949,6 @@ and when a line is particularly tricky, that's a great time to explain
 ## **Show**, don't tell.
 
 ### Explain **non-obvious** lines of code **in the code**.
-
-todo: screenshot of amara calling me out for not adding a comment
 
 <!--
 
@@ -972,7 +992,7 @@ or for the lottery factor,
 
 ## Share your **learnings**.
 
-todo: image of a PR that shares learnings (from artsy article?)
+![width:600 right-justified](images/aside-learning.png)
 
 <!--
 
@@ -992,7 +1012,7 @@ but maybe it's not. In which case it's worth sharing.
 
 ## Share **development tips**.
 
-todo: image of a PR that shares development tips. (artsy article?)
+![width:700](images/aside-dev-tips.png)
 
 <!--
 
@@ -1026,13 +1046,39 @@ which we know take a long time to resolve when working asynchronously.
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
 
-## Draft/WIP/"Do not merge".
+## Draft/WIP.
 
-todo: image of draft/wip/do not merge PRs
+![width:700 draft PR in github](images/aside-draft.png)
 
 <!--
 
-let them know this isn't to be merged yet, or ever
+let them know your work is in progress
+
+(if you can remember that the Draft feature exists, which I never do)
+
+gives them a chance to see what you're thinking about this line of work
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
+
+## Do not merge/Prototype.
+
+![width:900 prototype PR in github](images/aside-do-not-merge.png)
+
+<!--
+
+let them know this isn't to be merged ever
+
+there's a tendency to think every PR must be merged
+
+but opening a PR that proves out an idea is sometimes the best way to get good feedback
+
+because everyone can see the code, and pull it down to run it
+
+but when it's served its purpose, you can close it and re-implement with more production-worthy changes
 
 -->
 
@@ -1042,11 +1088,23 @@ let them know this isn't to be merged yet, or ever
 
 ## **What's included**, and what's not?
 
-todo: github tasklist showing what's included and what's not
+![width:900](images/aside-included.png)
 
 <!--
 
 what is part of this PR, and what will you cover in a follow-up PR?
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
+
+## **What's included**, and what's not?
+
+![width:800](images/aside-included-issue.png)
+
+<!--
 
 on an epic level, what is included in this feature?
 
@@ -1184,9 +1242,7 @@ LOL interpreted as lots of love
 
 ### [GIFs for GitHub extension](https://chrome.google.com/webstore/detail/gifs-for-github/dkgjnpbipbdaoaadbdhpiokaemhlphep)
 
-todo: image of gifs for github
-
-![w:400 right-justified](./images/atom.jpg)
+![width:600 right-justified](images/aside-unanimated-gif.png)
 
 <!--
 
@@ -1200,7 +1256,7 @@ I will recommend this gif plugin
 
 ![bg opacity:80%](images/aside-bachelor.jpg)
 
-# Good reviews <br/>request changes <br/> **for the right reasons**.
+# Good reviews request changes <br/> **for the right reasons**.
 
 <!--
 
@@ -1335,7 +1391,7 @@ If there's a reason something needs to change, give them information about why
 
 ## 1. Use the **suggestion** feature.
 
-todo: screenshot of suggestion feature
+![width:900](images/aside-suggesting.png)
 
 <!--
 
@@ -1354,7 +1410,7 @@ like changing a variable name.
 
 ## 2. Explicitly **assign responsibilities**.
 
-> Re-assigning to you to merge when you've fixed the broken test.
+![width:900](images/aside-reassign.png)
 
 <!--
 
