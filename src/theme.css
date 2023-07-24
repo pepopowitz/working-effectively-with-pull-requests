@@ -63,6 +63,7 @@ section.invert {
   background-color: var(--theme-color-alt);
   color: #fff;
   --h1-color: #fff;
+  --heading-strong-color: #3DCEE1;
   --color-accent-fg: #3DCEE1;
 }
 
