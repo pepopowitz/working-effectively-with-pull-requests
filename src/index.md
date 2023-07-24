@@ -39,11 +39,9 @@ Camunda has a booth, come visit!
 
 # Shame~~less~~ful self-promotion.
 
-## A Developer Experience Podcast.
-
 ### [anchor.fm/a-developer-experience](https://anchor.fm/a-developer-experience)
 
-todo: image of logo
+![w:300 right-justified](./images/a-developer-experience-podcast.png)
 
 ---
 
@@ -51,11 +49,9 @@ todo: image of logo
 
 # Shame~~less~~ful self-promotion.
 
-## 2 Rad Dads.
-
 ### [youtube.com/@2RadDads](https://www.youtube.com/@2RadDads)
 
-todo: image of logo
+![w:300 right-justified](./images/2raddads.png)
 
 ---
 
@@ -97,19 +93,33 @@ aka merge request
 
 <!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
-## A PR includes a **description**.
+## A PR includes a **title** and **description**.
 
-todo: image of description field
+![w:900px GitHub pull request with title and description](images/aside-title-description.png)
 
-<!-- summarize the changes you'd like incorporated -->
+<!--
+
+(read title and description)
+
+summarize the changes you'd like incorporated
+
+-->
 
 ---
 
 <!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
 
-## A PR includes **the code changes**.
+## A PR includes **a commit history**.
 
-todo: image of code diff
+![w:900px GitHub pull request with commit history](images/aside-commit-history.png)
+
+---
+
+<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+
+## A PR includes **code changes**.
+
+![w:900px GitHub pull request with changed files](images/aside-code-changes.png)
 
 <!-- represented in a diff format -->
 
@@ -123,7 +133,7 @@ todo: image of code diff
 
 <!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
-todo: image of talking about the code
+todo: image of talking about the code (amara asking a question)
 
 <!-- so we can talk about the code changes -->
 
@@ -131,7 +141,7 @@ todo: image of talking about the code
 
 <!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
-todo: image of suggesting changes
+todo: image of suggesting changes (me suggesting a11y changes to amara's pr)
 
 <!-- and a reviewer can suggest changes -->
 
@@ -288,7 +298,7 @@ and it also means enforcing psychological safety by calling out bad acts
 
 <!-- _header: "1 | **2: Ground rules.** _Act with compassion._ | 3 | 4 | 5 | 6 "  -->
 
-![bg opacity:80%](images/carrots.jpg)
+![bg opacity:80%](images/full-carrots.jpg)
 
 <!--
 I said this is a talk about culture, and I want to share my favorite analogy
@@ -611,13 +621,40 @@ https://www.conventionalcommits.org/en/v1.0.0/
 
 ## Good commits **tell a story**.
 
-todo: image of pavlos's commit log alongside jon's commit log
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene by telling a story._ | 4 | 5 | 6 "  -->
+
+![w:500](./images/aside-story-jon.png)
 
 <!--
 
 Sometimes it's easier to review a PR one commit at a time
 
 It's nice to provide people that option
+
+(read for the back of room)
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene by telling a story._ | 4 | 5 | 6 "  -->
+
+![w:500](./images/aside-story-jon.png)
+![w:500 right-justified](./images/aside-story-pavlos.png)
+
+<!--
+
+(read for the back of room)
+
+and as much as I love Pavlos
+
+and as hilarious as these commit messages are
+
+they don't provide me that option
+
+and they don't add any context
 
 -->
 
@@ -627,7 +664,7 @@ It's nice to provide people that option
 
 ## Good commits include **all contributors**.
 
-todo: screenshot of a co-authored trailer, plus how it shows up in github (https://github.com/jonallured/pear/pull/31/commits)
+todo: screenshot of a co-authored trailer, plus how it shows up in github (https://github.com/jonallured/pear/pull/31/commits) (collab with christina!)
 
 <!--
 
@@ -643,11 +680,15 @@ Give the juniors credit to help build their GitHub portfolio.
 
 ## Good commits include **all contributors**.
 
-1. github.com/jonallured/pear
+1. [github.com/jonallured/pear](https://github.com/jonallured/pear)
 
-2. github.com/git-duet/git-duet
+2. [github.com/git-duet/git-duet](https://github.com/git-duet/git-duet)
 
-todo: screenshot of pear
+---
+
+<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene by including all contributors._ | 4 | 5 | 6 "  -->
+
+![Using pear to amend a commit trailer](images/aside-pear.png)
 
 <!--
 
@@ -750,9 +791,11 @@ I give you this advice knowing full well that it is my own biggest struggle
 
 ![bg opacity:80%](images/aside-rubiks.jpg)
 
-## Perfect is the **enemy of good**.
+## Perfect is the **enemy of done**.
 
 <!--
+
+I think the actual quote is "enemy of good" but it makes more sense to me as enemy of done.
 
 Again, this is as much a reminder to myself as it is to you,
 
@@ -834,12 +877,56 @@ todo: screenshot of before & after
 ---
 
 <!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
+<!-- _footer: "" -->
+
+## **Show**, don't tell.
+
+### Walk them through the changes.
+
+![w:420 right-justified](/images/aside-code-tour.png)
+
+<!--
+
+- you can give yourself a PR review!
+- this is often the first thing I do when I open a PR
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
 
 ## **Show**, don't tell.
 
 ### Explain **non-obvious** lines of code.
 
 todo: screenshot of lines explanation
+
+<!--
+
+and when a line is particularly tricky, that's a great time to explain
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
+
+## **Show**, don't tell.
+
+### Explain **non-obvious** lines of code **in the code**.
+
+todo: screenshot of amara calling me out for not adding a comment
+
+<!--
+
+Though if you find yourself explaining a single line of code in a pull request review,
+
+there's a good chance you should also add that comment in the code
+
+doing a self-review when opening a PR is a good opportunity to catch things like this.
+
+-->
 
 ---
 
