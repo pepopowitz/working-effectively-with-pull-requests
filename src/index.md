@@ -77,7 +77,7 @@ Camunda has a booth, come visit!
 
 ## 5. Good PR reviews.
 
-## 6. Getting it merged.
+## 6. Final thoughts.
 
 ---
 
@@ -1220,42 +1220,6 @@ just make sure that any decisions that come out of that conversation, or discove
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
-
-## Be friendly?
-
-<!-- prettier-ignore -->
-1) Use emojis and GIFs?
-
-<!--
-
-question mark because it's my personal rule but I think it's a stretch to tell you to live this way
-
-also questionable on using emojis/gifs because they can be misinterpreted
-
-🙏 being interpreted as high five instead of oh dear I hope this works
-LOL interpreted as lots of love
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
-
-## Be friendly?
-
-### [GIFs for GitHub extension](https://chrome.google.com/webstore/detail/gifs-for-github/dkgjnpbipbdaoaadbdhpiokaemhlphep)
-
-![width:600 right-justified](images/aside-unanimated-gif.png)
-
-<!--
-
-I will recommend this gif plugin
-
--->
-
----
-
 <!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
 
 ![bg opacity:80%](images/aside-bachelor.jpg)
@@ -1464,7 +1428,7 @@ clearly!
 
 <!-- _class: invert -->
 
-# 6. Getting it merged.
+# 6. Final thoughts.
 
 ---
 
@@ -1486,7 +1450,7 @@ But it is important to abide by the norms of the project, which unfortunately va
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Getting it merged.** "  -->
+<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Final thoughts.** "  -->
 
 ## The **maintainers** have responsibilities <br/>to **support contributors**.
 
@@ -1504,7 +1468,7 @@ because gatekeeping contributions to a project, whether intentional or unintenti
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Getting it merged.** "  -->
+<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Final thoughts.** "  -->
 
 ## The best way to **maintain this balance** is to <br/>**establish norms** and **communicate** them clearly.
 
@@ -1512,25 +1476,7 @@ because gatekeeping contributions to a project, whether intentional or unintenti
 
 through some sort of agreement
 
-probably the worst way to handle this is to do what we do on my team:
-
-handle the responsibilities as maintainers differently per person.
-
 -->
-
----
-
-<!-- _class: invert -->
-
-# Remember the ground rules.
-
-## 1. Practice **curiosity** over judgement.
-
-## 2. Act with **compassion**.
-
-## 3. Be aware of **power dynamics**.
-
-## 4. **Communicate** effectively (asynchronously).
 
 ---
 
