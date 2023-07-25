@@ -214,6 +214,19 @@ an opportunity to share knowledge
 <!-- prettier-ignore -->
 2) For **others** and **future you**.
 
+<!--
+
+so we can recall when we introduced changes
+
+...
+
+and why
+
+...
+
+
+-->
+
 ---
 
 <!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
@@ -237,6 +250,11 @@ an opportunity to share knowledge
 
 <!-- but more than GitHub, more than pull requests or merge requests, this is a talk about culture -->
 <!-- and more specifically, asynchronous collaborative culture -->
+<!--
+
+also, shout out to olivia
+
+-->
 
 ---
 
@@ -295,7 +313,9 @@ We can't just magically wave our hands and say "this is now a safe space, you sh
 2) Call out bad acts.
 
 <!-- So let's start with what we can control
+
 and focus on building an environment
+
 with enough psychological safety that people can feel more comfortable assuming positive intent
 
 And that starts with you.
@@ -705,23 +725,9 @@ Give the less experience credit to help build their GitHub portfolio.
 
 ## Good commits include **all contributors**.
 
-1. [github.com/jonallured/pear](https://github.com/jonallured/pear)
+1. [github.com/jonallured/pear](https://github.com/jonallured/pear) 🍐🍐🍐
 
 2. [github.com/git-duet/git-duet](https://github.com/git-duet/git-duet)
-
----
-
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene by including all contributors._ | 4 | 5 | 6 "  -->
-
-![Using pear to amend a commit trailer](images/aside-pear.png)
-
-<!--
-
-A couple options for tools to make it easier to give credit when pairing
-
-I recommend pear because my former coworker wrote it and it's a nice lightweight experience
-
--->
 
 ---
 
@@ -884,7 +890,7 @@ that context and knowledge won't be there. It's really helpful to have it all wr
 
 <!--
 
-1 -
+1 - what are we trying to do here?
 
 2 - why does this new code exist?
 
@@ -904,11 +910,12 @@ that context and knowledge won't be there. It's really helpful to have it all wr
 
 <!--
 
+when possible, give them something visual
+
+so that they can see the effects without running the PR locally
+
 I don't expect you to be able to read anything on here,
 but I think you can see the difference in size of those orange squares
-
-It's helpful to capture that kind of visual difference for a reviewer
-So they can see the effects without running the PR locally
 
 -->
 
@@ -1275,7 +1282,7 @@ unless I can use specific language about why it is not readable enough
 
 3 - my rule: if you can't give a subjective reason the code is improved, it's taste, and no one wins.
 
-But, if you're a dictator & subjects power dynamic, the dictator wins
+But, if you're a dictator/DRI & subjects power dynamic, the dictator wins
 
 ...
 
@@ -1342,6 +1349,9 @@ If there's a reason something needs to change, give them information about why
 
 3
 - (conversations, tickets, etc)
+- be aware of access
+  - if you're working in public, and it's important for people outside your org to see the conversation,
+  - extract the text from the conversation, don't just link to it
 
 -->
 
@@ -1397,6 +1407,8 @@ like changing a variable name.
 
 clearly!
 
+- this slide is the reason I started writing this talk - my first ever opinion on PRs & PR reviews
+
 - Is this feedback blocking or non-blocking?
 - are you expecting them to address this in this PR? another?
 - how much does it matter to you that they address it?
@@ -1414,6 +1426,8 @@ clearly!
 
 ![indented](images/aside-netlify-feedback.png)
 
+<!-- a couple examples of formalizing this -->
+
 ---
 
 <!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 "  -->
@@ -1424,7 +1438,7 @@ clearly!
 
 ---
 
-<!-- section 6: Getting it merged. -->
+<!-- section 6: Final thoughts. -->
 
 <!-- _class: invert -->
 
@@ -1432,7 +1446,7 @@ clearly!
 
 ---
 
-<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Getting it merged.** "  -->
+<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Final thoughts.** "  -->
 
 ## The **author** has responsibilities <br/>to **support maintainers**.
 
@@ -1490,8 +1504,4 @@ through some sort of agreement
 
 ##### ✉️ stevenhicks.me/where/
 
----
-
-<!-- _footer: "" -->
-
-![bg](images/full-feedback.png)
+![width:400 right-justified](./images/survey-qr.jpg)
