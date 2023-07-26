@@ -53,17 +53,9 @@ Camunda has a booth, come visit!
 
 ### [anchor.fm/a-developer-experience](https://anchor.fm/a-developer-experience)
 
-![w:300 right-justified](./images/a-developer-experience-podcast.png)
-
----
-
-<!-- _class: invert -->
-
-# Shame~~less~~ful self-promotion.
-
 ### [youtube.com/@2RadDads](https://www.youtube.com/@2RadDads)
 
-![w:300 right-justified](./images/2raddads.png)
+![w:200 right-justified](./images/aside-self-promo.jpg)
 
 ---
 
