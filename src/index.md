@@ -8,7 +8,7 @@ footer: '@pepopowitz | pull-requests.stevenhicks.me'
 
 ![bg opacity:80%](images/cover.jpg)
 
-# Working Effectively<br/>With Pull Requests
+# Collaborating Effectively<br/>Through Pull Requests
 
 ### 👦 Steven Hicks
 
