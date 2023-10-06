@@ -18,18 +18,6 @@ footer: '@pepopowitz | pull-requests.stevenhicks.me'
 
 ---
 
-<!-- _footer: "" -->
-
-![bg](images/full-sponsors.png)
-
----
-
-<!-- _footer: "" -->
-
-![bg](images/full-save-the-date.png)
-
----
-
 <!-- _class: invert -->
 <!-- _backgroundColor: black -->
 
@@ -209,8 +197,6 @@ an opportunity to share knowledge
 <!--
 
 so we can recall when we introduced changes
-
-...
 
 and why
 
