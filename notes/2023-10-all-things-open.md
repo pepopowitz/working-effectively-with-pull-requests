@@ -1,0 +1,96 @@
+# July 13, 2023 (Thursday)
+
+- principles
+  - practice curiosity over judgement
+    - ask don't guess
+    - don't make assumptions
+  - act with compassion
+    - positive intent
+    - call out bad acts
+  - acknowledge power dynamics
+    - choose words with care and intention
+    - explicit instead of implicit
+  - communicate effectively
+    - clear, concise, unambiguous
+    - ask clarifying questions
+    - radiate intent
+    - state the unstated
+    - be direct (compassionately)
+  - communicate effectively asynchronously
+    - minimize round trips
+      - new slide about hiding the decision tree until they decide
+        - just expose the entire decision tree!
+        - e.g. "if they say this, then I'll suggest x; otherwise y."
+        - give that to them up front instead of waiting
+  - configuring for collaboration
+    - communicate expectations
+    - clear & direct templates
+    - automate the automatable
+    - good commit hygiene
+      - atomic
+        - small
+        - clear/concise message
+        - description to add context
+      - tell a story
+        - jon vs pavlos
+      - include all contribs
+        - pear
+  - pull requests
+    - concise & cohesive
+      - break up by different mindset
+        - architectural layer
+        - infrastructural vs implementation
+        - risky vs routine
+    - show progress
+      - drafts
+      - prototypes
+      - walking skeletons
+      - rfcs
+      - perfect is the enemy of done
+    - provide context
+      - don't assume prior knowledge
+      - proactively explain
+        - describe motivation
+        - explain reasoning
+        - describe alternatives
+      - show don't tell
+        - before/after states
+        - walk them through changes
+        - explain non-obvious code
+        - explain non-obvious impact
+    - spread knowledge
+      - share learnings
+      - share dev tips
+    - radiate intent
+      - draft/wip
+      - do not merge/prototype
+      - what's included, what's not?
+      - assign roles
+        - assignee, reviewers
+        - establish working agreement to remove ambiguity
+          - who merges?
+          - what's reviewer's responsibility?
+  - reviews
+    - communicate effectively
+      - be respectful
+      - be direct
+      - ask questions
+        - no assumptions
+        - get help understanding what you don't understand
+        - take it synchronous
+    - request changes for the right reasons
+      - you define them
+      - be explicit about power dynamics
+      - curiosity over judgement
+      - let the robots help
+    - provide context
+      - tell them why
+      - point to examples
+      - point to conversations
+    - give direction
+      - use the suggestion feature
+      - assign responsibilities
+      - state importance level
+        - netlify
+        - conventional comments
+        -
