@@ -47,31 +47,27 @@ Camunda has a booth, come visit!
 
 ---
 
-## 1. What even is a pull request (PR)?
+```javascript
+[
+  'What even is a pull request (PR)?',
 
-## 2. Ground rules.
-
-## 3. The work before the work.
-
-## 4. Good pull requests.
-
-## 5. Good PR reviews.
-
-## 6. Final thoughts.
+  ...'6 Principles for collaborating effectively.',
+];
+```
 
 ---
 
-<!-- section 1: What even is a PR? -->
+<!-- section 0: What even is a PR? -->
 
 <!-- _class: invert -->
 
-# 1. What even is a pull request (PR)?
+# What even is a pull request (PR)?
 
 <!-- level-setting -->
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A pull request (PR) is a request to **incorporate code changes**.
 
@@ -83,7 +79,7 @@ aka merge request
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR includes a **title** and **description**.
 
@@ -99,7 +95,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR includes **a commit history**.
 
@@ -107,7 +103,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR includes **code changes**.
 
@@ -117,13 +113,13 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR is a means to do a **code review**.
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![width:900 talking about code in a PR](images/aside-talk-about-code.png)
 
@@ -131,7 +127,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![width:900 code suggestion in a PR](images/aside-suggestion.png)
 
@@ -139,7 +135,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![pr approval](images/aside-approve.png)
 
@@ -147,7 +143,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![merging a PR](images/aside-merge.png)
 
@@ -155,13 +151,13 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 # A PR is **communication** and **collaboration**.
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR is an opportunity to **share knowledge**.
 
@@ -185,7 +181,7 @@ an opportunity to share knowledge
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR provides a historical record.
 
@@ -207,7 +203,7 @@ and why
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-pr-symbols.jpg)
 
@@ -220,7 +216,7 @@ and why
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-flower.jpg)
 
@@ -236,36 +232,49 @@ also, shout out to olivia
 
 ---
 
-<!-- section 2: Ground rules -->
+<!-- section 1: Act with compassion -->
 
 <!-- _class: invert -->
 
-# 2. Ground rules.
-
-<!-- we're starting with cultural ground rules for collaborative work -->
-<!-- and then we're going to talk about specific actions you can take to improve collaborative coding -->
-<!-- but you're going to see all sorts of the culture in the actions -->
+# 1. Act with compassion.
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
 
-![bg opacity:80%](images/aside-thinking.jpg)
+![bg opacity:80%](images/aside-shake-hands.jpg)
 
-# Practice **curiosity** <br/> over judgement.
+## Be **respectful**.
 
-<!-- prettier-ignore -->
-1) Ask, don't guess.
-<!-- prettier-ignore -->
-2) Don't make assumptions.
+<!--
 
-<!-- if something doesn't make sense or seems wrong, ask questions about it -->
+I don't think I need to explain this any further
+
+...but I'll show you an example that suggest I do.
+
+-->
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
 
-# ~~Assume positive intent.~~
+TODO: comparison of starlight vs d-rex
+
+<!--
+
+I mean maybe it's just me
+
+but raise your hand if you'd prefer to be a part of the left community
+
+raise your hand if you'd prefer to be part of the right community
+
+-->
+
+---
+
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
+
+## ~~Assume positive intent.~~
 
 <!-- ...
 we want this slide to say "assume positive intent"
@@ -279,11 +288,11 @@ We can't just magically wave our hands and say "this is now a safe space, you sh
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-uncle-sam.jpg)
 
-# **Act** with compassion.
+## **Act** with compassion.
 
 1. Act with positive intent.
 <!-- prettier-ignore -->
@@ -308,7 +317,7 @@ bad acts, not actors, because they don't know they're doing something bad
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Act with compassion._ | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:80%](images/full-carrots.jpg)
 
@@ -336,11 +345,11 @@ Calling out bad acts in pull request reviews is a small but important contributi
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- section 2: Acknowledge power dynamics -->
 
-![bg opacity:80%](images/aside-talk-down.jpg)
+<!-- _class: invert -->
 
-# Be aware of <br/>**power dynamics**.
+# 2. Acknowledge power dynamics.
 
 <!--
 Power dynamics have a huge impact on collaboration, especially in the interpretation of ambiguous communication.
@@ -350,7 +359,7 @@ If you think "this doesn't affect me,"
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Be aware of power dynamics._ | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | **2: Acknowledge power dynamics.** | 3 | 4 | 5 | 6 "  -->
 
 ## If you aren't **aware** of a power dynamic, you're probably on the **strong** side of it.
 
@@ -358,15 +367,24 @@ If you think "this doesn't affect me,"
 Power dynamics appear in every relationship we have.
 You certainly know about them when you're on the weaker side of it.
 And when you don't know about a power dynamic in a relationship, there's a good chance it's because you're on the stronger side.
+
+They can be problematic, but we can also navigate them successfully in a team.
+
+Especially if we are aware of them.
+
 -->
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Be aware of power dynamics._ | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | **2: Acknowledge power dynamics.** | 3 | 4 | 5 | 6 "  -->
 
-## Power dynamics can be **conflicting**.
+![bg opacity:80%](images/aside-talk-down.jpg)
+
+## Power dynamics can be <br/>**multi-directional**.
 
 <!--
+and those multiple directions can conflict
+
 For example,
 
 I interact with my boss in my PRs every day.
@@ -379,32 +397,26 @@ That's a power dynamic in the opposite direction, and it also appears in the int
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | **2: Acknowledge power dynamics.** | 3 | 4 | 5 | 6 "  -->
 
-# Be aware of **power dynamics**.
+![bg opacity:80%](images/aside-talk-down.jpg)
+
+1. Choose words with care & **intention**.
 
 <!-- prettier-ignore -->
-1) Choose words with care and intention.
-
-<!-- prettier-ignore -->
-2) Be explicit instead of implicit.
+2) Be **explicit** instead of implicit.
 
 <!--
-These exist in almost every relationship we have.
 
-They can be problematic, but we can also navigate them successfully in a team.
+The weight of our words, especially when we're on the strong side of the dynamic, is incredible.
 
-We really just need to be aware of them.
-
-...
-
-And the weight of our words, especially when we're on the strong side of the dynamic.
+Choose them carefully.
 
 ...
 
-I think the best way to avoid misinterpretation of words in a power dynamic
+And to avoid misinterpretation of words in a power dynamic
 
-is to be explicit instead of implicit.
+be explicit instead of implicit.
 
 When something isn't that important, SAY SO.
 
@@ -415,6 +427,47 @@ Don't leave it up to the reader to interpret.
 Feedback from the strong side takes on a very heavy weight. That weight can easily elevate something from "doesn't matter" to "matters very much," even if it doesn't.
 
 -->
+
+---
+
+<!-- section 3: Prefer curiosity over judgement -->
+
+<!-- _class: invert -->
+
+# 3. Prefer curiosity over judgement.
+
+<!--
+TODO HERE
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | **3: Curiosity over judgement.** | 4 | 5 | 6 "  -->
+
+---
+
+<!-- -->
+<!-- -->
+<!-- -->
+<!-- below here is old -->
+<!-- -->
+<!-- -->
+<!-- -->
+
+---
+
+<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-thinking.jpg)
+
+# Practice **curiosity** <br/> over judgement.
+
+<!-- prettier-ignore -->
+1) Ask, don't guess.
+<!-- prettier-ignore -->
+2) Don't make assumptions.
+
+<!-- if something doesn't make sense or seems wrong, ask questions about it -->
 
 ---
 
@@ -1140,20 +1193,6 @@ on an epic level, what is included in this feature?
 
 <!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
 
-![bg opacity:80%](images/aside-shake-hands.jpg)
-
-## Be **respectful**.
-
-<!--
-
-I don't think I need to explain this any further
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
-
 ## Be direct.
 
 > "**What do you think** about doing X instead of Y?"
@@ -1483,3 +1522,7 @@ through some sort of agreement
 ##### ✉️ stevenhicks.me/where/
 
 ![width:400 right-justified](./images/survey-qr.jpg)
+
+```
+
+```
