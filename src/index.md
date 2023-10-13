@@ -8,25 +8,13 @@ footer: '@pepopowitz | pull-requests.stevenhicks.me'
 
 ![bg opacity:80%](images/cover.jpg)
 
-# Working Effectively<br/>With Pull Requests
+# Collaborating Effectively<br/>Through Pull Requests
 
 ### 👦 Steven Hicks
 
 ### 🌎 pull-requests.stevenhicks.me
 
 ### ✉️ stevenhicks.me/where/
-
----
-
-<!-- _footer: "" -->
-
-![bg](images/full-sponsors.png)
-
----
-
-<!-- _footer: "" -->
-
-![bg](images/full-save-the-date.png)
 
 ---
 
@@ -40,50 +28,37 @@ I'm a Developer Experience Engineer at Camunda
 
 Camunda builds a process orchestration platform
 
+we have a booth, come visit!
+
 I work mainly on the infrastructure for our documentation
 
-Camunda has a booth, come visit!
- -->
+And a big part of that is making sure the contributor experience for our docs is enjoyable
+
+-->
 
 ---
+
+```javascript
+[
+  'What even is a pull request (PR)?',
+
+  ...'6 Principles for collaborating effectively.',
+];
+```
+
+---
+
+<!-- section 0: What even is a PR? -->
 
 <!-- _class: invert -->
 
-# Shame~~less~~ful self-promotion.
-
-### [anchor.fm/a-developer-experience](https://anchor.fm/a-developer-experience)
-
-### [youtube.com/@2RadDads](https://www.youtube.com/@2RadDads)
-
-![w:200 right-justified](./images/aside-self-promo.jpg)
-
----
-
-## 1. What even is a pull request (PR)?
-
-## 2. Ground rules.
-
-## 3. The work before the work.
-
-## 4. Good pull requests.
-
-## 5. Good PR reviews.
-
-## 6. Final thoughts.
-
----
-
-<!-- section 1: What even is a PR? -->
-
-<!-- _class: invert -->
-
-# 1. What even is a pull request (PR)?
+# What even is a pull request (PR)?
 
 <!-- level-setting -->
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A pull request (PR) is a request to **incorporate code changes**.
 
@@ -95,7 +70,7 @@ aka merge request
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR includes a **title** and **description**.
 
@@ -111,7 +86,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR includes **a commit history**.
 
@@ -119,7 +94,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR includes **code changes**.
 
@@ -129,13 +104,13 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR is a means to do a **code review**.
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![width:900 talking about code in a PR](images/aside-talk-about-code.png)
 
@@ -143,7 +118,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![width:900 code suggestion in a PR](images/aside-suggestion.png)
 
@@ -151,7 +126,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![pr approval](images/aside-approve.png)
 
@@ -159,7 +134,7 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Code review._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![merging a PR](images/aside-merge.png)
 
@@ -167,13 +142,13 @@ summarize the changes you'd like incorporated
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 # A PR is **communication** and **collaboration**.
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR is an opportunity to **share knowledge**.
 
@@ -197,7 +172,7 @@ an opportunity to share knowledge
 
 ---
 
-<!-- _header: "**1: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** _Communication and collaboration._ | 2 | 3 | 4 | 5 | 6 "  -->
 
 ## A PR provides a historical record.
 
@@ -210,8 +185,6 @@ an opportunity to share knowledge
 
 so we can recall when we introduced changes
 
-...
-
 and why
 
 ...
@@ -221,7 +194,7 @@ and why
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-pr-symbols.jpg)
 
@@ -234,7 +207,7 @@ and why
 
 ---
 
-<!-- _header: "**1: What even is a PR?** | 2 | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "**0: What even is a PR?** | 1 | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-flower.jpg)
 
@@ -250,79 +223,117 @@ also, shout out to olivia
 
 ---
 
-<!-- section 2: Ground rules -->
+<!-- section 1: Act with compassion -->
 
 <!-- _class: invert -->
 
-# 2. Ground rules.
-
-<!-- we're starting with cultural ground rules for collaborative work -->
-<!-- and then we're going to talk about specific actions you can take to improve collaborative coding -->
-<!-- but you're going to see all sorts of the culture in the actions -->
+# 1. Act with compassion.
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
 
-![bg opacity:80%](images/aside-thinking.jpg)
+![bg opacity:80%](images/aside-shake-hands.jpg)
 
-# Practice **curiosity** <br/> over judgement.
+# Be **respectful**.
 
-<!-- prettier-ignore -->
-1) Ask, don't guess.
-<!-- prettier-ignore -->
-2) Don't make assumptions.
+<!--
 
-<!-- if something doesn't make sense or seems wrong, ask questions about it -->
+and kind?
 
----
+I don't think I need to explain this any further
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
-
-# ~~Assume positive intent.~~
-
-<!-- ...
-we want this slide to say "assume positive intent"
-but in an environment that isn't psychologically safe,
-"assume positive intent" puts the onus on the abused instead of the abuser.
-
-We can't just magically wave our hands and say "this is now a safe space, you should assume everyone means well."
-
+...but I'll show you an example that suggest I do.
 
 -->
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
+
+> **Guest:** Oh sorry I realize what you mean now, I'm a bit of a slow learner and didn't think to check the docs 👶
+
+> **Host 1:** Oh! No need to apologize! This is _our_ responsibility, not yours! Need to figure out how to make it easy/obvious for everyone. 😄
+
+> **Host 2:** I'll believe you're a slow learner when you stop shipping docs sites with day-old tools 😅
+
+---
+
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
+
+> **Guest:** \[technical question about a feature, including a code sample that didn't work as expected]
+
+> **Host:** If you'd have put any effort into the documentation it's the first sentence here: \[link]
+
+> **Host:** 😕
+
+<!--
+
+I mean maybe it's just me
+
+but raise your hand if you'd prefer to be a part of the first community
+
+raise your hand if you'd prefer to be part of the second community
+
+...don't be a jerk.
+
+-->
+
+---
+
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
+
+## ~~Assume positive intent.~~
+
+<!-- ...
+we want this slide to say "assume positive intent"
+but "assume positive intent" gives someone an out to **not** act with positive intent.
+
+and in an environment that lacks psychological safety for all parties, that seems unjust.
+
+If we try to magically wave our hands and say "this is now a safe space, you should assume everyone means well,"
+
+we're building a community that pushes you out for feeling otherwise
+
+-->
+
+---
+
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-uncle-sam.jpg)
 
 # **Act** with compassion.
 
 1. Act with positive intent.
+
 <!-- prettier-ignore -->
+2) Own your actions.
 
-2) Call out bad acts.
+<!-- prettier-ignore -->
+3) Call out bad acts.
 
-<!-- So let's start with what we can control
+<!--
 
-and focus on building an environment
+So we shift this language to focus on the things that we can control
+
+2 - even with the right intent, impact can be negative. Own your actions when things go wrong.
+
+
+3 - and on the other side, reward good acts
+
+acts, not actors, because they don't know they're doing something bad
+
+*we* can focus on building an environment
 
 with enough psychological safety that people can feel more comfortable assuming positive intent
 
-And that starts with you.
-
-...
-
-and it also means enforcing psychological safety by calling out bad acts
-
-bad acts, not actors, because they don't know they're doing something bad
 
 -->
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Act with compassion._ | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
 
 ![bg opacity:80%](images/full-carrots.jpg)
 
@@ -350,11 +361,11 @@ Calling out bad acts in pull request reviews is a small but important contributi
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- section 2: Acknowledge power dynamics -->
 
-![bg opacity:80%](images/aside-talk-down.jpg)
+<!-- _class: invert -->
 
-# Be aware of <br/>**power dynamics**.
+# 2. Acknowledge power dynamics.
 
 <!--
 Power dynamics have a huge impact on collaboration, especially in the interpretation of ambiguous communication.
@@ -364,7 +375,7 @@ If you think "this doesn't affect me,"
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Be aware of power dynamics._ | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | **2: Acknowledge power dynamics.** | 3 | 4 | 5 | 6 "  -->
 
 ## If you aren't **aware** of a power dynamic, you're probably on the **strong** side of it.
 
@@ -372,15 +383,24 @@ If you think "this doesn't affect me,"
 Power dynamics appear in every relationship we have.
 You certainly know about them when you're on the weaker side of it.
 And when you don't know about a power dynamic in a relationship, there's a good chance it's because you're on the stronger side.
+
+They can be problematic, but we can also navigate them successfully in a team.
+
+Especially if we are aware of them.
+
 -->
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Be aware of power dynamics._ | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | **2: Acknowledge power dynamics.** | 3 | 4 | 5 | 6 "  -->
 
-## Power dynamics can be **conflicting**.
+![bg opacity:80%](images/aside-talk-down.jpg)
+
+## Power dynamics can be <br/>**multi-directional**.
 
 <!--
+and those multiple directions can conflict
+
 For example,
 
 I interact with my boss in my PRs every day.
@@ -393,32 +413,26 @@ That's a power dynamic in the opposite direction, and it also appears in the int
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | **2: Acknowledge power dynamics.** | 3 | 4 | 5 | 6 "  -->
 
-# Be aware of **power dynamics**.
+![bg opacity:80%](images/aside-talk-down.jpg)
+
+1. Choose words with care & **intention**.
 
 <!-- prettier-ignore -->
-1) Choose words with care and intention.
-
-<!-- prettier-ignore -->
-2) Be explicit instead of implicit.
+2) Be **explicit** instead of implicit.
 
 <!--
-These exist in almost every relationship we have.
 
-They can be problematic, but we can also navigate them successfully in a team.
+The weight of our words, especially when we're on the strong side of the dynamic, is incredible.
 
-We really just need to be aware of them.
-
-...
-
-And the weight of our words, especially when we're on the strong side of the dynamic.
+Choose them carefully.
 
 ...
 
-I think the best way to avoid misinterpretation of words in a power dynamic
+And to avoid misinterpretation of words in a power dynamic
 
-is to be explicit instead of implicit.
+be explicit instead of implicit.
 
 When something isn't that important, SAY SO.
 
@@ -426,63 +440,108 @@ When it is important, SAY SO.
 
 Don't leave it up to the reader to interpret.
 
-Feedback from the strong side takes on a very heavy weight. That weight can easily elevate something from "doesn't matter" to "matters very much," even if it doesn't.
+Feedback from the strong side takes on a very heavy weight.
+That weight can easily elevate something that doesn't matter to something that is perceived to matter very much.
 
 -->
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- section 3: Choose curiosity over judgement -->
+
+<!-- _class: invert -->
+
+# 3. Choose curiosity over judgement.
+
+---
+
+<!-- _header: "0 | 1 | 2 | **3: Curiosity over judgement.** | 4 | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-thinking.jpg)
+
+# Don't make **assumptions**.
+
+<!--
+
+when a line of code doesn't make sense, it usually doesn't mean the author is dumb,
+
+it means you don't understand how they approached the problem
+
+when a change in a PR doesn't make sense, that's often also the case.
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | **3: Curiosity over judgement.** | 4 | 5 | 6 "  -->
+
+# **Ask**, don't guess.
+
+<!-- prettier-ignore -->
+1) Get help understanding the things you don't understand.
+
+<!-- prettier-ignore -->
+2) Take it synchronous if it's still unclear.
+
+<!--
+
+if something doesn't make sense or seems wrong, ask questions about it
+
+2 - if things go back and forth more than a couple times in comments, don't be afraid to take it to a synchronous conversation
+
+just make sure that any decisions that come out of that conversation, or discoveries, or anything interesting, makes its way back to the PR as a comment.
+
+-->
+
+---
+
+<!-- section 3: remove ambiguity -->
+
+<!-- _class: invert -->
+
+# 4. Remove ambiguity. **Proactively.**
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+
+# **Ask** clarifying questions.
+
+<!--
+Back to our previous section about asking instead of guessing
+
+If something is unclear, get more information.
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-communication.jpg)
 
 # **Communicate** effectively.
 
 <!-- prettier-ignore -->
-1) Use clear, concise, and <br/>unambiguous language.
-
+1) Clearly
 <!-- prettier-ignore -->
-2) Ask clarifying questions.
-
+2) Completely
 <!-- prettier-ignore -->
-3) Radiate intent.
-
+3) Concisely
 <!-- prettier-ignore -->
-4) State the unstated.
-
-<!-- prettier-ignore -->
-5) Be direct (compassionately).
+4) Bidirectionally
 
 <!--
+
 this is probably a non-controversial statement
+and also very nebulous
 we're all trying to do this in a lot of ways
-here are some communication tips that are critical to a good PR interaction.
-
-...
-
-often it's easier to notice others using unclear ambiguous language, so help them out by letting them know you don't understand
-
-...
-
-If something is unclear, get more information.
-
-...
-
-Make it clear what you will do and what you won't;
-what you're expecting and what you're not expecting.
-
-...
-
-Assumptions, context, conclusions...all of these things can easily be misinterpreted. State them explicitly.
-
-...
-
+here are some things to focus on.
 
 -->
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
 
 # Communicate effectively **asynchronously**.
 
@@ -512,51 +571,95 @@ The most important thing you can do to *prevent that pain*,
 
 is to minimize round trips.
 
-And that means doing all the *things we've talked about*.
+And that means doing all the *things we've talked about*, and some things we will talk about soon.
 
-Providing context, clarity, radiating intent, removing ambiguity
+Providing clarity, giving complete information, etc
 
-giving the reader enough to go on so that they don't need to ask questions.
+and proactively, so that the reader doesn't need to ask as many clarifying questions.
 
 -->
 
 ---
 
-<!-- _header: "1 | **2: Ground rules.** _Communicate effectively asynchronously._ | 3 | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Communicate effectively asynchronously_ | 5 | 6 "  -->
 
 ![bg](images/full-text-convo.jpg)
 
 <!--
 
-Because this is the worst.
+Because you can't have conversations like the ones I have with my 12yo
 
-Especially when you're working across time zones and you have to wait until tomorrow to see a response.
+Where it takes ten round-trips to get to the point
+
+Especially when you're working across time zones and you have to wait until tomorrow to see a response to each exchange.
+
+(answer: the sleepover, cousin muffin has skipped a nap and is unhinged)
 
 -->
 
 ---
 
-<!-- section 3: The work before the work -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
 
-<!-- _class: invert -->
-
-# 3. The work before the work.
+# State the unstated.
 
 <!--
-ground rules in place,
-let's look at the things that happen before opening a PR
-which lend themselves to a frictionless PR experience.
+
+Assumptions, context, conclusions...all of these things can easily be misinterpreted. State them explicitly.
+
 -->
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
 
-# Configure the project for **collaboration**.
+# Be **direct**.
+
+<!--
+
+Compassionately, obviously,
+
+but say what you want to say. An example:
+
+a few years ago I started doing this thing where I wanted to be extra friendly and considerate in my PR reviews
+
+-->
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Be direct._ | 5 | 6 "  -->
+
+<!-- prettier-ignore -->
+> "**What do you think** about doing X instead of Y?" ❌
+
+<!-- prettier-ignore -->
+> "I think **we should do** X instead of Y, because Z." ✅
+
+<!--
+
+So no matter how important I thought a change was, I'd phrase comments like the top
+
+Extremely passively and indirect
+
+But what I really meant was the bottom - I think we should make this change.
+
+The top can be fine if you really don't have an opinion,
+
+just make sure you're saying what you mean.
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-directions.jpg)
+
+# Give **direction**.
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
 
 ## Communicate **expectations**.
 
@@ -565,12 +668,12 @@ which lend themselves to a frictionless PR experience.
 <!--
 frustratingly, this kind of documentation exists solely to point people to
 after they've proven that they didn't read it
-so there are a couple things we can do to enforce norms
+but it's still important to have something to point to
 -->
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
 
 ## Provide **clear** and **direct** templates.
 
@@ -578,18 +681,19 @@ so there are a couple things we can do to enforce norms
 
 <!--
 
-- templates Suggest a format to enforce consistency of PRs, which can reduce cognitive load
+define issue and PR templates in your repo
+
+- Suggest a format to enforce consistency of PRs, which can reduce cognitive load
 - we use comments to give guidance
 - Use checklists to guide progress and establish requirements
-- Provide options to keep people within the rails ?
 
 -->
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
 
-## Provide **clear** and **direct** templates.
+## Provide **clear** and **direct** templates. ❌
 
 ## ![github pr template with squishy language](images/aside-squishy-template.png)
 
@@ -602,43 +706,561 @@ Example: checklist in screenshot!
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Configure for collaboration._ | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
 
-![bg opacity:80%](images/aside-robot.jpg)
+## Explicitly **assign responsibilities**.
 
-## **Automate** the automatable.
+<!-- prettier-ignore -->
+* Assignee; reviewers.
+<!-- prettier-ignore -->
+* Establish a **working agreement** to remove ambiguity.
+  - Who merges?
+  - What is a reviewer's responsibility?
 
 <!--
-- Syntax and formatting validation
-- Assignment of roles
 
-any rule that isn't enforced through automation will be violated
+1 - assign the PR to someone, and add reviewers...
 
-and then it's up to a person to find it/fix it
-
-Ex: Amarabot to identify missing duplication in versions
+2 - whether documented or enforced by convention or automation
 
 -->
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction by assigning responsibilities._ | 5 | 6 "  -->
+
+![width:900](images/aside-reassign.png)
+
+<!--
+
+- and then when an assignment changes, call that out,
+- and tell them why
+- e.g. "assigning to you to merge when you feel the test coverage is adequate"
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
+
+## Use the **suggestion** feature.
+
+![width:900](images/aside-suggesting.png)
+
+<!--
+during reviews
+
+Allows a person to commit the prescribed changes directly in the GitHub UI.
+
+Especially nice for very small changes.
+
+Becomes more difficult to manage when there are synchronized suggestions in multiple places,
+like changing a variable name.
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
+
+## State **the importance** of addressing the feedback.
+
+<!--
+
+the perceived importance is usually just tied to where you are in the power dynamic
+
+- this slide is the reason I started writing this talk - my first ever opinion on PRs & PR reviews
+
+- Is this feedback blocking or non-blocking?
+- are you expecting them to address this in this PR? another?
+- these are all things I want to know about your feedback so that I can respond correctly
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction by stating the importance._ | 5 | 6 "  -->
+
+### [Netlify's feedback ladder](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/).
+
+![indented](images/aside-netlify-feedback.png)
+
+<!-- a couple examples of formalizing this -->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction by stating the importance._ | 5 | 6 "  -->
+
+### [Conventional Comments](https://conventionalcomments.org/).
+
+![w:1000px indented](images/aside-conventional-comments.png)
+
+<!--
+
+conventional comments introduces a consistent structure to your review comments
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-turn-signal.jpg)
+
+# Radiate **intent**
+
+<!--
+
+As giving direction relates to how we expect others to act,
+
+just as important is radiating intent on how _we_ plan to act.
+
+
+ambiguity and uncertainty are what lead to those round trips
+
+which we know take a long time to resolve when working asynchronously.
+
+when we radiate intent on what we plan to do,
+
+we can snuff those out
+
+...
+
+some specific things we can do in our PRs to radiate intent...
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.**  _Radiate intent._ | 5 | 6 "  -->
+
+## Draft/WIP.
+
+![width:700 draft PR in github](images/aside-draft.png)
+
+<!--
+
+let them know your work is in progress
+
+(if you can remember that the Draft feature exists, which I never do)
+
+gives them a chance to see what you're thinking about this line of work
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.**  _Radiate intent._ | 5 | 6 "  -->
+
+## Do not merge/Prototype.
+
+![width:900 prototype PR in github](images/aside-do-not-merge.png)
+
+<!--
+
+let them know this isn't to be merged ever
+
+there's a tendency to think every PR must be merged
+
+but opening a PR that proves out an idea is sometimes the best way to get good feedback
+
+because everyone can see the code, and pull it down to run it
+
+but when it's served its purpose, you can close it and re-implement with more production-worthy changes
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.**  _Radiate intent._ | 5 | 6 "  -->
+
+## **What's included**, and what's not?
+
+![width:900](images/aside-included.png)
+
+<!--
+
+what is part of this PR, and what will you cover in a follow-up PR?
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.**  _Radiate intent._ | 5 | 6 "  -->
+
+## **What's included**, and what's not?
+
+![width:800](images/aside-included-issue.png)
+
+<!--
+
+on an epic level, what is included in this feature?
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-bachelor.jpg)
+
+> _I'm here to request changes <br/> **for the right reasons**_.
+
+<!--
+
+one aspect of pull requests that I think fully captures the problem of ambiguity
+
+and benefits tremendously from all the strategies we've talked about to remove ambiguity
+
+is the question of which changes should I be requesting in a PR review
+
+has anyone collaborated on a project where PR review feedback was imbalanced
+
+like one person wanted everyone else's code to look like they wrote it
+
+and others on the team were more like "ehhh I can understand it, it's good"?
+
+That's ambiguity at work.
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-bachelor.jpg)
+
+## Are these **The Right Reasons**?
+
+<!-- prettier-ignore -->
+1) The code could be more readable.
+<!-- prettier-ignore -->
+2) Code that was not added or edited <br/>in the PR is wrong.
+<!-- prettier-ignore -->
+3) The syntax doesn't match my preference.
+
+<!--
+
+1 - what's readable?
+
+if you're a functional programmer and I have a Java background and we're both writing javascript,
+
+we're going to have very different perspectives on which code is more readable
+
+2 - how wrong is wrong?
+
+is it a variable name that doesn't make sense anymore?
+
+is it costing us money?
+
+where do we stand on the question of whether that fix should live in this PR or in a separate one?
+
+3 -
+
+what kind of ownership does the project have?
+
+Is it a single owner/DRI/dictator?
+
+Is there no one owner but maintained by 5 different people?
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+
+![bg opacity:80%](images/aside-bachelor.jpg)
+
+# **Intentionally define** <br/>The Right Reasons.
+
+<!--
+
+All this to say
+
+Ambiguity leads to imbalances,
+
+and honestly inequities.
+
+It leads to different collaborators being held to different standards.
+
+Sometimes that's what you want
+
+But often it's not
+
+The best way to kill ambiguity is to define rules of engagement more precisely
+
+With a working agreement or ways of working or something tangible that you can point to
+
+-->
+
+---
+
+<!-- section 4: tell stories -->
+
+<!-- _class: invert -->
+
+# 5. Tell stories.
+
+<!--
+
+A good story has all of the qualities we've talked about so far
+
+But we can also talk about some more specifics
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** | 6 "  -->
+
+![bg opacity:80%](images/aside-clues.jpg)
+
+# Provide **context**.
+
+<!--
+
+So that you can avoid the round-trips of clarifying questions, which in an asynchronous environment can drag things on and on and on
+
+One rule to live by ...
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Provide context._ | 6 "  -->
+
+![bg opacity:80%](images/aside-donkey.jpg)
+
+## Don't **assume** prior knowledge.
+
+<!--
+
+Even if the reader has perfect context when they read your message today
+
+In a month, when someone's looking back at this work, trying to figure out when, why, and how a feature was introduced...
+
+maybe that person is you...
+
+that context and knowledge won't be there. It's really helpful to have it all written up for posterity.
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
+
+## Proactively **explain**.
+
+<!-- prettier-ignore -->
+1) Describe **motivation**/background/problem solved.
+<!-- prettier-ignore -->
+2) Explain **reasoning**.
+<!-- prettier-ignore -->
+3) Describe **alternatives** considered.
+
+<!--
+
+1 - what are we trying to do here?
+
+2 - why does this new code exist?
+
+during a review, why do you recommend this change?
+
+what's going to happen in the system that they're not realizing?
+
+3 - and why you chose this approach over the others
+
+and again remember that you could very easily create a PR template that encourages including these things
+
+-->
+
+---
+
+<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
+
+## **Show**, don't tell.
+
+### Compare the **before** and **after** states.
+
+![width:450 right-justified](images/aside-before-after.png)
+
+<!--
+
+when possible, give them something visual
+
+so that they can see the effects without running the PR locally
+
+I don't expect you to be able to read anything on here,
+but I think you can see the difference in size of those orange squares
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Provide context._ | 6 "  -->
+
+<!-- _footer: "" -->
+
+## **Show**, don't tell.
+
+### Walk them through the changes.
+
+![w:420 right-justified](/images/aside-code-tour.png)
+
+<!--
+
+- you can give yourself a PR review!
+- this is often the first thing I do when I open a PR
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Provide context._ | 6 "  -->
+
+## **Show**, don't tell.
+
+### Explain **non-obvious**<br/> lines of code.
+
+![width:700 right-justified](images/aside-non-obvious.png)
+
+<!--
+
+and when a line is particularly tricky, that's a great time to explain
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Provide context._ | 6 "  -->
+
+## **Show**, don't tell.
+
+### Explain **non-obvious** lines of code **in the code**.
+
+<!--
+
+Though if you find yourself explaining a single line of code in a pull request review,
+
+there's a good chance you should also add that comment in the code
+
+doing a self-review when opening a PR is a good opportunity to catch things like this.
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Provide context._ | 6 "  -->
+
+## **Show**, don't tell.
+
+### Show **impact** not obvious in the code.
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Provide context._ | 6 "  -->
+
+## Include **sources**.
+
+<!-- prettier-ignore -->
+1) Point to **other examples**.
+<!-- prettier-ignore -->
+2) Point to **conversations**.
+
+<!--
+
+1
+- in a PR, what's an example you followed?
+- in a review requesting changes, what's an example they can follow?
+
+2
+- (conversations, tickets, etc)
+- be aware of access & privacy
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** | 6 "  -->
+
+# Be **concise** and **cohesive**.
+
+<!--
+
+a good story is concise -- it doesn't drown you with superfluous info
+
+it's also cohesive -- the words that are there work together instead of against each other.
+
+In a pull request, we can easily fall into the trap of including everything you did since your previous one
+
+even if it's not directly related to the work we're doing
+
+And to avoid this, we want to make sure we break our work up into right-sized pieces
+
+Too big, or too sprawling, and they can be too difficult for a person to review,
+and they'll rubberstamp LGTM,
+and two weeks later we discover the bug we snuck into that big rubberstamped PR.
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Be concise and cohesive._ | 6 "  -->
+
+## Break up changes that require <br/>a **different mindset** to review.
+
+<!-- prettier-ignore -->
+1) By architectural layer.
+<!-- prettier-ignore -->
+2) By infrastructural vs implementation.
+<!-- prettier-ignore -->
+3) By risky vs routine.
+
+<!--
+
+Sometimes it's obvious how to break up a PR that isn't concise or cohesive
+
+But often it's not
+
+my guiding light for separating the tricky ones is to break them up by mindset required to review them
+
+when a PR contains different types of work that require different mindets to review, it's more likely to draw the LGTM response,
+which translates to "there were too many things going on and I didn't totally get it all, but I inherently trust you."
+
+1 - api vs front-end, etc
+2 - infra invites more thorough review of concepts;
+  - implementation is more "are you following the existing patterns."
+  - includes the "walking skeleton" approach, where you start with a PR that just puts the infrastructure in place so that different parts _can_ function together...then implementing each of the functions into the skeleton.
+3 - routine work that follows existing patterns usually gets "hey you missed this" type of feedback; novel work that takes thoughtful consideration of approaches invites more theoretical feedback.
+
+Ideally you can do this with separate PRs.
+If you can't, at the very least practice good commit hygiene to separate your work....which leads me....
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Be concise and cohesive._ | 6 "  -->
 
 ![bg opacity:80%](images/aside-toothbrush.jpg)
 
-# Practice good commit **hygiene**.
+## Practice good commit **hygiene**.
 
 <!--
-on the code side of things
+
+One last potentially more controversial point on cohesive stories
+
+Commit hygiene
+
 -->
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Be concise and cohesive with good hygiene._ | 6 "  -->
 
 ![bg opacity:80%](images/aside-atom.jpg)
 
-## Good commits are **atomic**.
+## Make commits **atomic**.
 
 <!-- prettier-ignore -->
 1) Small.
@@ -654,21 +1276,19 @@ You can amend them along the way to meet these criteria
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
-
-## Good commits **tell a story**.
-
----
-
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene by telling a story._ | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Be concise and cohesive with good hygiene._ | 6 "  -->
 
 ![w:500](./images/aside-story-jon.png)
 
 <!--
 
-Sometimes it's easier to review a PR one commit at a time
+and when you do this, the commits _can_ tell a story
 
-It's nice to provide people that option
+and I agree that 95% of the time that doesn't matter, because we're just looking at the diff view of the PR anyway
+
+But sometimes it is easier to review a PR one commit at a time - especially refactoring PRs
+
+and It's nice to provide people that option
 
 (read for the back of room)
 
@@ -676,7 +1296,7 @@ It's nice to provide people that option
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene by telling a story._ | 4 | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Be concise and cohesive with good hygiene._ | 6 "  -->
 
 ![w:500](./images/aside-story-jon.png)
 ![w:500 right-justified](./images/aside-story-pavlos.png)
@@ -691,94 +1311,15 @@ and as hilarious as these commit messages are
 
 they don't provide me that option
 
-and they don't add any context
-
 -->
 
 ---
 
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
-
-## Good commits include **all contributors**.
-
-![github commit summary, showing multiple contributors](images/aside-all-contribs.png)
-
-<!--
-
-This is especially important when more experienced pair with less experienced
-
-Give the less experience credit to help build their GitHub portfolio.
-
--->
-
----
-
-<!-- _header: "1 | 2 | **3: The work before the work.** _Practice good commit hygiene._ | 4 | 5 | 6 "  -->
-
-## Good commits include **all contributors**.
-
-1. [github.com/jonallured/pear](https://github.com/jonallured/pear) 🍐🍐🍐
-
-2. [github.com/git-duet/git-duet](https://github.com/git-duet/git-duet)
-
----
-
-<!-- section 4: Good pull requests. -->
-
-<!-- _class: invert -->
-
-# 4. Good pull requests.
-
-<!-- we finally made it! -->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
-
-# Good PRs are **concise** and **cohesive**.
-
-<!--
-the tendency is to include everything you did since your last PR in this one you've just opened
-
-often that violates concise or cohesive
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Are concise and cohesive._ | 5 | 6 "  -->
-
-## Break up changes that require a **different mindset** to review.
-
-<!-- prettier-ignore -->
-1) By architectural layer.
-<!-- prettier-ignore -->
-2) By infrastructural vs implementation.
-<!-- prettier-ignore -->
-3) By risky vs routine.
-
-<!--
-this is my guidance for separating pull requests
-
-when a PR contains different types of work that require different mindets to review, it's more likely to draw the LGTM response, which usually means "there were too many things going on and I didn't totally get it all, but I inherently trust you."
-
-1 - api vs front-end, etc
-2 - infra invites more thorough review of concepts; implementation is more "are you following the existing patterns."
-  - includes the "walking skeleton" approach, where you start with a PR that just puts the infrastructure in place so that different parts _can_ function together...then implementing each of the functions into the skeleton.
-3 - routine work that follows existing patterns usually gets "hey you missed this" type of feedback; novel work that takes thoughtful consideration of approaches invites more theoretical feedback.
-
-Ideally you can do this with separate PRs.
-If you can't, at the very least practice good commit hygiene so that reviewers may easily review the risky changes separate from the routine changes, for example.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** | 6 "  -->
 
 ![bg opacity:80%](images/aside-loading.jpg)
 
-# Good PRs **show progress**.
+# Show **progress**.
 
 <!-- prettier-ignore -->
 1) Draft/Work In Progress (WIP) PRs.
@@ -813,11 +1354,11 @@ I give you this advice knowing full well that it is my own biggest struggle
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Show progress._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | **5: Tell stories.** _Show progress._ | 6 "  -->
 
 ![bg opacity:80%](images/aside-rubiks.jpg)
 
-## Perfect is the **enemy of done**.
+# Perfect is <br/>the **enemy of done**.
 
 <!--
 
@@ -833,151 +1374,59 @@ When it comes to PRs, perfection might be getting in the way of shipping things.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
+<!-- section 6: Grow together -->
 
-![bg opacity:80%](images/aside-clues.jpg)
+<!-- _class: invert -->
 
-# Good PRs **provide context**.
+# 6. Grow together.
 
 <!--
 
-So that you can avoid the round-trips of clarifying questions, which in an asynchronous environment can drag things on and on and on
+Seems kind of silly, given we're talking about collaboration
 
-One rule to live by ...
+But I think sometimes people forget
+
+just a couple small tips here
 
 -->
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | 5 | **6: Grow together.** "  -->
 
-![bg opacity:80%](images/aside-donkey.jpg)
+# Give **credit**.
 
-## Don't **assume** prior knowledge.
-
-<!--
-
-Even if your reviewers have perfect context when they review the PR you opened today
-
-In a month, when someone's looking back at this work, trying to figure out when, why, and how a feature was introduced...
-
-maybe that person is you...
-
-that context and knowledge won't be there. It's really helpful to have it all written up for posterity.
-
- -->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
-
-## Proactively **explain**.
-
-<!-- prettier-ignore -->
-1) Describe **motivation**/background/problem solved.
-<!-- prettier-ignore -->
-2) Explain **reasoning**.
-<!-- prettier-ignore -->
-3) Describe **alternatives** considered.
+![github commit summary, showing multiple contributors](images/aside-all-contribs.png)
 
 <!--
 
-1 - what are we trying to do here?
+give credit where credit is due
 
-2 - why does this new code exist?
+This is especially important when more experienced pair with less experienced
 
-3 - and why you chose this approach over the others
+If you work together on something, add both contributors to the commits.
+
+Give the less experience credit to help build their portfolio of work.
 
 -->
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | 5 | **6: Grow together.** "  -->
 
-## **Show**, don't tell.
+# Give **credit**.
 
-### Compare the **before** and **after** states.
+1. [github.com/jonallured/pear](https://github.com/jonallured/pear) 🍐🍐🍐
 
-![width:450 right-justified](images/aside-before-after.png)
-
-<!--
-
-when possible, give them something visual
-
-so that they can see the effects without running the PR locally
-
-I don't expect you to be able to read anything on here,
-but I think you can see the difference in size of those orange squares
-
--->
+2. [github.com/git-duet/git-duet](https://github.com/git-duet/git-duet)
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
-<!-- _footer: "" -->
-
-## **Show**, don't tell.
-
-### Walk them through the changes.
-
-![w:420 right-justified](/images/aside-code-tour.png)
-
-<!--
-
-- you can give yourself a PR review!
-- this is often the first thing I do when I open a PR
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
-
-## **Show**, don't tell.
-
-### Explain **non-obvious**<br/> lines of code.
-
-![width:700 right-justified](images/aside-non-obvious.png)
-
-<!--
-
-and when a line is particularly tricky, that's a great time to explain
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
-
-## **Show**, don't tell.
-
-### Explain **non-obvious** lines of code **in the code**.
-
-<!--
-
-Though if you find yourself explaining a single line of code in a pull request review,
-
-there's a good chance you should also add that comment in the code
-
-doing a self-review when opening a PR is a good opportunity to catch things like this.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Provide context._ | 5 | 6 "  -->
-
-## **Show**, don't tell.
-
-### Show **impact** not obvious in the code.
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | 5 | **6: Grow together.** "  -->
 
 ![bg opacity:80%](images/aside-spread.jpg)
 
-# Good PRs <br/>**spread knowledge**.
+# **Spread knowledge**.
 
 <!--
 
@@ -991,7 +1440,7 @@ or for the lottery factor,
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Spread knowledge._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | 5 | **6: Grow together.** _Spread knowledge._ "  -->
 
 ## Share your **learnings**.
 
@@ -1011,11 +1460,11 @@ but maybe it's not. In which case it's worth sharing.
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Spread knowledge._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | 4 | 5 | **6: Grow together.** _Spread knowledge._ "  -->
 
-## Share **development tips**.
+## Share <br/>**development tips**.
 
-![width:700](images/aside-dev-tips.png)
+![width:700 right-justified](images/aside-dev-tips.png)
 
 <!--
 
@@ -1027,462 +1476,17 @@ what cool dev tool features did I learn about while testing this?
 
 ---
 
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** | 5 | 6 "  -->
+## 1. Act with **compassion**.
 
-![bg opacity:80%](images/aside-turn-signal.jpg)
+## 2. Acknowledge **power dynamics**.
 
-# Good PRs **radiate intent**.
+## 3. Choose **curiosity** over judgement.
 
-<!--
+## 4. Remove **ambiguity**. Proactively.
 
-use your turn signal
+## 5. Tell **stories**.
 
-to remove ambiguity and uncertainty
-
-because it's ambiguity and uncertainty that leads to those round trips
-
-which we know take a long time to resolve when working asynchronously.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
-
-## Draft/WIP.
-
-![width:700 draft PR in github](images/aside-draft.png)
-
-<!--
-
-let them know your work is in progress
-
-(if you can remember that the Draft feature exists, which I never do)
-
-gives them a chance to see what you're thinking about this line of work
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
-
-## Do not merge/Prototype.
-
-![width:900 prototype PR in github](images/aside-do-not-merge.png)
-
-<!--
-
-let them know this isn't to be merged ever
-
-there's a tendency to think every PR must be merged
-
-but opening a PR that proves out an idea is sometimes the best way to get good feedback
-
-because everyone can see the code, and pull it down to run it
-
-but when it's served its purpose, you can close it and re-implement with more production-worthy changes
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
-
-## **What's included**, and what's not?
-
-![width:900](images/aside-included.png)
-
-<!--
-
-what is part of this PR, and what will you cover in a follow-up PR?
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
-
-## **What's included**, and what's not?
-
-![width:800](images/aside-included-issue.png)
-
-<!--
-
-on an epic level, what is included in this feature?
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | **4: Good pull requests.** _Radiate intent._ | 5 | 6 "  -->
-
-## Assign **roles**.
-
-<!-- prettier-ignore -->
-* Assignee; reviewers.
-<!-- prettier-ignore -->
-* Establish a **working agreement** to remove ambiguity.
-  - Who merges?
-  - What is a reviewer's responsibility?
-
-<!--
-
-1 - assign the PR to someone, and add reviewers...
-
-2 - whether documented or enforced by convention or automation
-
--->
-
----
-
-<!-- section 5: Good PR reviews. -->
-
-<!-- _class: invert -->
-
-# 5. Good PR reviews.
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
-
-![bg opacity:80%](images/aside-communication.jpg)
-
-# Good reviews <br/>**communicate effectively**.
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
-
-![bg opacity:80%](images/aside-shake-hands.jpg)
-
-## Be **respectful**.
-
-<!--
-
-I don't think I need to explain this any further
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
-
-## Be direct.
-
-> "**What do you think** about doing X instead of Y?"
-
-> "I think **we should do** X instead of Y, because Z."
-
-<!--
-
-a few years ago I started doing this thing where I wanted to be extra friendly and considerate
-
-And I'd put comments phrased like the top
-
-But what I really meant was the bottom
-
-The top was too indirect and passive
-
-The top can be fine if you really don't have an opinion,
-
-just make sure you're saying what you mean.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Communicate effectively._ | 6 "  -->
-
-## Ask questions.
-
-<!-- prettier-ignore -->
-1) Don't make assumptions.
-<!-- prettier-ignore -->
-2) Get help understanding the things you don't understand.
-<!-- prettier-ignore -->
-3) Take it synchronous if it's still unclear.
-
-<!--
-
-remember, curiosity over judgement
-
-1 - when something doesn't make sense, it usually doesn't mean the author is dumb, it means you don't understand how they approached the problem
-
-2 - and then ask them to explain it so you can understand it
-
-3 - if things go back and forth more than a couple times in comments, don't be afraid to take it to a synchronous conversation
-
-just make sure that any decisions that come out of that conversation, or discoveries, or anything interesting, makes its way back to the PR as a comment.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
-
-![bg opacity:80%](images/aside-bachelor.jpg)
-
-# Good reviews request changes <br/> **for the right reasons**.
-
-<!--
-
-and I've got some bad news for you ...
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 "  -->
-
-## **You** define **The Right Reasons**.
-
-<!--
-
-I'm not going to tell you what the right reasons are
-
-I recommend you establish a team agreement on what is fair game for requesting changes
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 "  -->
-
-## Are these **The Right Reasons**?
-
-<!-- prettier-ignore -->
-1) The code could be more readable.
-<!-- prettier-ignore -->
-2) Code that was not added or edited in the PR is wrong.
-<!-- prettier-ignore -->
-3) The syntax doesn't match my preference.
-
-<!--
-
-1 - careful! it's subjective
-
-if I've got a function that needs to do four unrelated things in sequence, and each thing takes 2 lines of code,
-would you rather see everything happen in one function, or one function that calls 4 2-line functions?
-
-functional programmer's code vs javascript developers?
-
-my personal rule is that I don't request changes for readability
-unless I can use specific language about why it is not readable enough
-
-2 - how wrong does it have to be to warrant sneaking into this PR vs creating another?
-
-3 - my rule: if you can't give a subjective reason the code is improved, it's taste, and no one wins.
-
-But, if you're a dictator/DRI & subjects power dynamic, the dictator wins
-
-...
-
-all this to say, establish a working agreement!
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Request changes for the right reasons._ | 6 "  -->
-
-## Other guidance for requesting changes
-
-<!-- prettier-ignore -->
-1) Be explicit about **power dynamics**.
-<!-- prettier-ignore -->
-2) Practice **curiosity over judgement**.
-<!-- prettier-ignore -->
-3) Let the **robots** help.
-
-<!--
-
-1 - dictator & subjects? (aka DRI)
-
-2 - Why did they do it differently than I would have?
-
-- Does it even matter?
-
-- Will I be able to understand this code when I stumble across it in 3 months?
-
-3 - automate as much as possible
-
-- prettier, linting, etc
-
-- if any frequent manual checks can be automated, do it! that should be a robot's job.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
-
-# Good reviews **provide context**.
-
-<!-- prettier-ignore -->
-1) Tell them **why** the code should change.
-<!-- prettier-ignore -->
-2) Point to **other code**.
-<!-- prettier-ignore -->
-3) Point to **conversations** outside of GitHub.
-
-<!--
-
-1
-If there's a reason something needs to change, give them information about why
-- why can't a variable be named X here?
-- what is the negative impact that they're not seeing?
-- share your understanding of the system
-- don't just say "this won't work", tell them what the effect in the system will be
-- there is a balance - be careful about excessive teaching because it can be condescending, and establish an unwanted power dynamic.
-
-2
-- what's an example they can follow?
-
-3
-- (conversations, tickets, etc)
-- be aware of access
-  - if you're working in public, and it's important for people outside your org to see the conversation,
-  - extract the text from the conversation, don't just link to it
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** | 6 "  -->
-
-![bg opacity:80%](images/aside-directions.jpg)
-
-# Good reviews <br/>**give direction**.
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 "  -->
-
-## 1. Use the **suggestion** feature.
-
-![width:900](images/aside-suggesting.png)
-
-<!--
-
-Allows a person to commit the prescribed changes directly in the GitHub UI.
-
-Especially nice for very small changes.
-
-Becomes more difficult to manage when there are synchronized suggestions in multiple places,
-like changing a variable name.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 "  -->
-
-## 2. Explicitly **assign responsibilities**.
-
-![width:900](images/aside-reassign.png)
-
-<!--
-
-- assign to someone to take action, if it isn't obvious.
-- e.g. "assigning to you to merge when you feel the test coverage is adequate"
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction._ | 6 "  -->
-
-## 3. State **the importance** of addressing the feedback.
-
-<!--
-
-clearly!
-
-- this slide is the reason I started writing this talk - my first ever opinion on PRs & PR reviews
-
-- Is this feedback blocking or non-blocking?
-- are you expecting them to address this in this PR? another?
-- how much does it matter to you that they address it?
-  - if you're picking nits, and you don't really care much if they're fixed, they might not know that
-  - especially depending on the power dynamic.
-  - I sometimes use the 1 to 10 on the "give a shit" meter to describe how much I care.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 "  -->
-
-### [Netlify's feedback ladder](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/).
-
-![indented](images/aside-netlify-feedback.png)
-
-<!-- a couple examples of formalizing this -->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | **5: Good PR reviews.** _Give direction by stating the importance._ | 6 "  -->
-
-### [Conventional Comments](https://conventionalcomments.org/).
-
-![w:1000px indented](images/aside-conventional-comments.png)
-
----
-
-<!-- section 6: Final thoughts. -->
-
-<!-- _class: invert -->
-
-# 6. Final thoughts.
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Final thoughts.** "  -->
-
-## The **author** has responsibilities <br/>to **support maintainers**.
-
-<!--
-
-So they don't burn out
-
-If the maintainer asks you to rebase on `main`, you should do that.
-
-You may ask for help if you don't know how to do the thing they're asking you to do...
-
-But it is important to abide by the norms of the project, which unfortunately vary from one project to another.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Final thoughts.** "  -->
-
-## The **maintainers** have responsibilities <br/>to **support contributors**.
-
-<!--
-
-at the same time....
-
-...to remove friction
-
-and enable people to contribute as easily as possible
-
-because gatekeeping contributions to a project, whether intentional or unintentional, is a good way to prevent contributions.
-
--->
-
----
-
-<!-- _header: "1 | 2 | 3 | 4 | 5 | **6: Final thoughts.** "  -->
-
-## The best way to **maintain this balance** is to <br/>**establish norms** and **communicate** them clearly.
-
-<!--
-
-through some sort of agreement
-
--->
+## 6. Grow **together**.
 
 ---
 
@@ -1496,4 +1500,14 @@ through some sort of agreement
 
 ##### ✉️ stevenhicks.me/where/
 
-![width:400 right-justified](./images/survey-qr.jpg)
+---
+
+<!-- _class: invert -->
+
+# Shame~~less~~ful self-promotion.
+
+### [anchor.fm/a-developer-experience](https://anchor.fm/a-developer-experience)
+
+### [youtube.com/@2RadDads](https://www.youtube.com/@2RadDads)
+
+![w:200 right-justified](./images/aside-self-promo.jpg)

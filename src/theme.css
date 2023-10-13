@@ -81,6 +81,12 @@ section a {
   text-decoration: underline;
 }
 
+/* specific slides */
+section.title h1, section.title h3 {
+  /* nudge the headings left/down so that the text doesn't overlay the background image */
+  transform: translate(-30px, 30px)
+}
+
 /* footer: slide URL */
 footer {
   font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", sans-serif;
@@ -141,3 +147,4 @@ blockquote strong {
   font-weight: inherit;
   color: var(--heading-strong-color);
 }
+

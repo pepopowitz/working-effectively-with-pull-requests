@@ -1,6 +1,6 @@
 author: Steven Hicks
-title: 'Working Effectively With Pull Requests'
-description: 'Slides for Working Effectively With Pull Requests, a presentation by Steven Hicks'
+title: 'Collaborating Effectively Through Pull Requests'
+description: 'Slides for Collaborating Effectively Through Pull Requests, a presentation by Steven Hicks'
 output: build/index.html
 theme: steve
 themeSet: src/theme.css

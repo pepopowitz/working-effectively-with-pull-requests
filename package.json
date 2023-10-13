@@ -1,7 +1,7 @@
 {
-  "name": "working-effectively-with-pull-requests",
+  "name": "collaborating-effectively-through-pull-requests",
   "version": "1.0.0",
-  "description": "Slides for Working Effectively With Pull Requests",
+  "description": "Slides for Collaborating Effectively Through Pull Requests",
   "main": "index.js",
   "scripts": {
     "images:copy": "cp src/favicon.ico ./build && imagemin src/images/* --out-dir=build/images",

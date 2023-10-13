@@ -1,0 +1,183 @@
+# July 13, 2023 (Thursday)
+
+## old outline
+
+- principles
+  - practice curiosity over judgement
+    - ask don't guess
+    - don't make assumptions
+  - act with compassion
+    - positive intent
+    - call out bad acts
+  - acknowledge power dynamics
+    - choose words with care and intention
+    - explicit instead of implicit
+  - communicate effectively
+    - clear, concise, unambiguous
+    - ask clarifying questions
+    - radiate intent
+    - state the unstated
+    - be direct (compassionately)
+  - communicate effectively asynchronously
+    - minimize round trips
+      - new slide about hiding the decision tree until they decide
+        - just expose the entire decision tree!
+        - e.g. "if they say this, then I'll suggest x; otherwise y."
+        - give that to them up front instead of waiting
+- configuring for collaboration
+  - communicate expectations
+  - clear & direct templates
+  - automate the automatable
+  - good commit hygiene
+    - atomic
+      - small
+      - clear/concise message
+      - description to add context
+    - tell a story
+      - jon vs pavlos
+    - include all contribs
+      - pear
+- pull requests
+  - concise & cohesive
+    - break up by different mindset
+      - architectural layer
+      - infrastructural vs implementation
+      - risky vs routine
+  - show progress
+    - drafts
+    - prototypes
+    - walking skeletons
+    - rfcs
+    - perfect is the enemy of done
+  - provide context
+    - don't assume prior knowledge
+    - proactively explain
+      - describe motivation
+      - explain reasoning
+      - describe alternatives
+    - show don't tell
+      - before/after states
+      - walk them through changes
+      - explain non-obvious code
+      - explain non-obvious impact
+  - spread knowledge
+    - share learnings
+    - share dev tips
+  - radiate intent
+    - draft/wip
+    - do not merge/prototype
+    - what's included, what's not?
+    - assign roles
+      - assignee, reviewers
+      - establish working agreement to remove ambiguity
+        - who merges?
+        - what's reviewer's responsibility?
+- reviews
+  - communicate effectively
+    - be respectful
+    - be direct
+    - ask questions
+      - no assumptions
+      - get help understanding what you don't understand
+      - take it synchronous
+  - request changes for the right reasons
+    - you define them
+    - be explicit about power dynamics
+    - curiosity over judgement
+    - let the robots help
+  - provide context
+    - tell them why
+    - point to examples
+    - point to conversations
+  - give direction
+    - use the suggestion feature
+    - assign responsibilities
+    - state importance level
+      - netlify
+      - conventional comments
+
+## new outline
+
+- act with compassion (p)
+  - positive intent (p)
+  - call out bad acts (p)
+  - be respectful (g)
+- acknowledge power dynamics (p)
+  - choose words with care & intention (p)
+  - explicit instead of implicit (p)
+- practice curiosity over judgement (p)
+  - ask, don't guess (p)
+  - ask questions (g)
+    - no assumptions (g)
+    - get help understanding what you don't understand (g)
+    - take it synchronous if needed (g)
+  - don't assume (p)
+  - request changes for the right reasons (g)
+    - you define them (g)
+    - be explicit about power dynamics (g)
+    - curiosity over judgement (g)
+- remove ambiguity (proactively!)
+  - ask clarifying questions (p)
+  - communicate effectively (g)
+  - communicate effectively async (p)
+    - minimize round trips (p)
+  - state the unstated (p)
+  - be direct (g)
+  - be direct (compassionately) (p)
+  - clear & direct templates (o)
+    - communicate expectations (o)
+  - give direction (g)
+    - (this is about you telling THEM what to do)
+    - use the suggestion feature (g)
+    - assign responsibilities (g)
+      - assign roles (y)
+        - reviewers/assignees (y)
+        - establish working agreement to remove ambiguity (y)
+    - state importance level (g)
+      - netlify (g)
+      - conventional comments (g)
+  - radiate intent (p)
+    - (this is about you telling them what YOU will do)
+    - radiate intent (y)
+      - draft/wip (y)
+      - do not merge/prototype (y)
+      - what's included, what's not (y)
+- tell stories
+  - clear, concise, ambiguous (p)
+  - good commit hygiene (o)
+    - atomic (o)
+      - small (o)
+      - clear/concise message (o)
+      - description for context (o)
+    - tell a story (o)
+    - include all contribs (o)
+  - provide context (y)
+    - don't assume prior knowledge (y)
+    - proactively explain (y)
+      - describe motivation (y)
+      - explain reasoning (y)
+      - describe alternatives (y)
+    - show don't tell (y)
+      - before/after states (y)
+      - walk through changes (y)
+      - explain non-obvious code (y)
+      - explain non-obvious impact (y)
+  - provide context (g)
+    - tell them why (g)
+    - point to examples (g)
+    - point to conversations (g)
+  - concise & cohesive (y)
+    - break up by mindset (y)
+      - architectural layer (y)
+      - infra vs implementation (y)
+      - risky vs routine (y)
+  - show progress (y)
+    - drafts (y)
+    - prototypes (y)
+    - walking skeletons (y)
+    - rfcs (y)
+    - perfect is the enemy of done (y)
+- learn together
+  - spread knowledge (y)
+    - share learnings (y)
+    - share dev tips (y)
