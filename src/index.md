@@ -189,6 +189,9 @@ and why
 
 ...
 
+many times that historical record is even for the person who made the changes
+
+because it's hard for anyone to remember what they were thinking a month ago
 
 -->
 
@@ -283,24 +286,6 @@ raise your hand if you'd prefer to be part of the second community
 
 <!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
 
-## ~~Assume positive intent.~~
-
-<!-- ...
-we want this slide to say "assume positive intent"
-but "assume positive intent" gives someone an out to **not** act with positive intent.
-
-and in an environment that lacks psychological safety for all parties, that seems unjust.
-
-If we try to magically wave our hands and say "this is now a safe space, you should assume everyone means well,"
-
-we're building a community that pushes you out for feeling otherwise
-
--->
-
----
-
-<!-- _header: "0 | **1: Act with compassion.** | 2 | 3 | 4 | 5 | 6 "  -->
-
 ![bg opacity:80%](images/aside-uncle-sam.jpg)
 
 # **Act** with compassion.
@@ -315,7 +300,13 @@ we're building a community that pushes you out for feeling otherwise
 
 <!--
 
-So we shift this language to focus on the things that we can control
+And acting with compassion starts with what you can control
+
+which is yourself
+
+many people say "assume positive intent" but ironically that actually gives people an out to act _without_ positive intent
+
+so let's focus on what we can do
 
 2 - even with the right intent, impact can be negative. Own your actions when things go wrong.
 
@@ -338,6 +329,7 @@ with enough psychological safety that people can feel more comfortable assuming 
 ![bg opacity:80%](images/full-carrots.jpg)
 
 <!--
+
 I said this is a talk about culture, and I want to share my favorite analogy
 
 of culture as a community garden.
@@ -355,7 +347,7 @@ You can rely on someone else to do it, and still enjoy the carrots,
 but you can also contribute.
 
 
-Calling out bad acts in pull request reviews is a small but important contribution to the weeding of the carrots. It's critical to keeping the garden healthy.
+Calling out bad acts in pull request interactions is a small but important contribution to the weeding of the carrots. It's critical to keeping the garden healthy.
 
 -->
 
@@ -722,20 +714,6 @@ Example: checklist in screenshot!
 1 - assign the PR to someone, and add reviewers...
 
 2 - whether documented or enforced by convention or automation
-
--->
-
----
-
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction by assigning responsibilities._ | 5 | 6 "  -->
-
-![width:900](images/aside-reassign.png)
-
-<!--
-
-- and then when an assignment changes, call that out,
-- and tell them why
-- e.g. "assigning to you to merge when you feel the test coverage is adequate"
 
 -->
 
@@ -1416,9 +1394,7 @@ Give the less experience credit to help build their portfolio of work.
 
 # Give **credit**.
 
-1. [github.com/jonallured/pear](https://github.com/jonallured/pear) 🍐🍐🍐
-
-2. [github.com/git-duet/git-duet](https://github.com/git-duet/git-duet)
+## [github.com/jonallured/pear](https://github.com/jonallured/pear) 🍐🍐🍐
 
 ---
 
@@ -1428,6 +1404,11 @@ Give the less experience credit to help build their portfolio of work.
 
 # **Spread knowledge**.
 
+<!-- prettier-ignore -->
+1) Share your learnings.
+<!-- prettier-ignore -->
+2) Share development tips.
+
 <!--
 
 whether it's to build shared understanding,
@@ -1436,39 +1417,11 @@ or for mentoring purposes,
 
 or for the lottery factor,
 
--->
-
----
-
-<!-- _header: "0 | 1 | 2 | 3 | 4 | 5 | **6: Grow together.** _Spread knowledge._ "  -->
-
-## Share your **learnings**.
-
-![width:600 right-justified](images/aside-learning.png)
-
-<!--
-
-maybe it's something you learned about the product
+1 - maybe it's something you learned about the product
 
 maybe it's something you learned about the programming language
 
-maybe it's something everyone else on your team already knows about....
-
-but maybe it's not. In which case it's worth sharing.
-
--->
-
----
-
-<!-- _header: "0 | 1 | 2 | 3 | 4 | 5 | **6: Grow together.** _Spread knowledge._ "  -->
-
-## Share <br/>**development tips**.
-
-![width:700 right-justified](images/aside-dev-tips.png)
-
-<!--
-
-how did I do this thing that you might also need to do?
+2 - how did I do this thing that you might also need to do?
 
 what cool dev tool features did I learn about while testing this?
 
