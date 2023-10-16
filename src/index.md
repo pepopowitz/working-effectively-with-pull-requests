@@ -964,8 +964,6 @@ But often it's not
 
 The best way to kill ambiguity is to define rules of engagement more precisely
 
-With a working agreement or ways of working or something tangible that you can point to
-
 -->
 
 ---
@@ -1345,6 +1343,10 @@ Again, this is as much a reminder to myself as it is to you,
 
 When it comes to PRs, perfection might be getting in the way of shipping things.
 
+and it leads to opening PRs only after the work is all done
+
+which leads to more re-work, due to waiting too long for feedback
+
 -->
 
 ---
@@ -1381,7 +1383,7 @@ This is especially important when more experienced pair with less experienced
 
 If you work together on something, add both contributors to the commits.
 
-Give the less experience credit to help build their portfolio of work.
+Give everyone credit so you're all building your portfolio of work.
 
 -->
 
