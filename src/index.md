@@ -488,11 +488,11 @@ just make sure that any decisions that come out of that conversation, or discove
 
 <!-- _class: invert -->
 
-# 4. Remove ambiguity. **Proactively.**
+# 4. Remove ambiguity.
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 # **Ask** clarifying questions.
 
@@ -504,7 +504,7 @@ If something is unclear, get more information.
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-communication.jpg)
 
@@ -530,7 +530,7 @@ here are some things to focus on.
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 # Communicate effectively **asynchronously**.
 
@@ -570,7 +570,7 @@ and proactively, so that the reader doesn't need to ask as many clarifying quest
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Communicate effectively asynchronously_ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Communicate effectively asynchronously_ | 5 | 6 "  -->
 
 ![bg](images/full-text-convo.jpg)
 
@@ -588,7 +588,7 @@ Especially when you're working across time zones and you have to wait until tomo
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 # State the unstated.
 
@@ -600,7 +600,7 @@ Assumptions, context, conclusions...all of these things can easily be misinterpr
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 # Be **direct**.
 
@@ -616,7 +616,7 @@ a few years ago I started doing this thing where I wanted to be extra friendly a
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Be direct._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Be direct._ | 5 | 6 "  -->
 
 <!-- prettier-ignore -->
 > "**What do you think** about doing X instead of Y?" ❌
@@ -640,7 +640,7 @@ just make sure you're saying what you mean.
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-directions.jpg)
 
@@ -648,7 +648,7 @@ just make sure you're saying what you mean.
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Give direction._ | 5 | 6 "  -->
 
 ## Communicate **expectations**.
 
@@ -662,7 +662,7 @@ but it's still important to have something to point to
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Give direction._ | 5 | 6 "  -->
 
 ## Provide **clear** and **direct** templates.
 
@@ -680,7 +680,7 @@ define issue and PR templates in your repo
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Give direction._ | 5 | 6 "  -->
 
 ## Provide **clear** and **direct** templates. ❌
 
@@ -695,7 +695,7 @@ Example: checklist in screenshot!
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Give direction._ | 5 | 6 "  -->
 
 ## Explicitly **assign responsibilities**.
 
@@ -716,7 +716,7 @@ Example: checklist in screenshot!
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Give direction._ | 5 | 6 "  -->
 
 ## Use the **suggestion** feature.
 
@@ -736,7 +736,7 @@ like changing a variable name.
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Give direction._ | 5 | 6 "  -->
 
 ## State **the importance** of addressing the feedback.
 
@@ -754,7 +754,7 @@ the perceived importance is usually just tied to where you are in the power dyna
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction by stating the importance._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Give direction by stating the importance._ | 5 | 6 "  -->
 
 ### [Netlify's feedback ladder](https://www.netlify.com/blog/2020/03/05/feedback-ladders-how-we-encode-code-reviews-at-netlify/).
 
@@ -764,7 +764,7 @@ the perceived importance is usually just tied to where you are in the power dyna
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** _Give direction by stating the importance._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Give direction by stating the importance._ | 5 | 6 "  -->
 
 ### [Conventional Comments](https://conventionalcomments.org/).
 
@@ -778,7 +778,7 @@ conventional comments introduces a consistent structure to your review comments
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-turn-signal.jpg)
 
@@ -807,7 +807,7 @@ some specific things we can do in our PRs to radiate intent...
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.**  _Radiate intent._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.**  _Radiate intent._ | 5 | 6 "  -->
 
 ## Draft/WIP.
 
@@ -825,7 +825,7 @@ gives them a chance to see what you're thinking about this line of work
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.**  _Radiate intent._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.**  _Radiate intent._ | 5 | 6 "  -->
 
 ## Do not merge/Prototype.
 
@@ -847,7 +847,7 @@ but when it's served its purpose, you can close it and re-implement with more pr
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.**  _Radiate intent._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.**  _Radiate intent._ | 5 | 6 "  -->
 
 ## **What's included**, and what's not?
 
@@ -861,7 +861,7 @@ what is part of this PR, and what will you cover in a follow-up PR?
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.**  _Radiate intent._ | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.**  _Radiate intent._ | 5 | 6 "  -->
 
 ## **What's included**, and what's not?
 
@@ -875,7 +875,7 @@ on an epic level, what is included in this feature?
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-bachelor.jpg)
 
@@ -901,7 +901,7 @@ That's ambiguity at work.
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-bachelor.jpg)
 
@@ -942,7 +942,7 @@ Is there no one owner but maintained by 5 different people?
 
 ---
 
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity. Proactively.** | 5 | 6 "  -->
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
 
 ![bg opacity:80%](images/aside-bachelor.jpg)
 
@@ -1432,7 +1432,7 @@ what cool dev tool features did I learn about while testing this?
 
 ## 3. Choose **curiosity** over judgement.
 
-## 4. Remove **ambiguity**. Proactively.
+## 4. Remove **ambiguity**.
 
 ## 5. Tell **stories**.
 
