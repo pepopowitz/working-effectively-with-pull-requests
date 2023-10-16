@@ -497,9 +497,67 @@ just make sure that any decisions that come out of that conversation, or discove
 # **Ask** clarifying questions.
 
 <!--
+
 Back to our previous section about asking instead of guessing
 
 If something is unclear, get more information.
+
+Asking questions is most direct way to remove ambiguity.
+
+But here's the thing...
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
+
+# **Clarifying questions** are in direct conflict with **asynchronous collaboration**.
+
+<!--
+Collaborating through PRs is *inherently asynchronous*, and with that comes some *really great* things.
+We can *collaborate across time and location*.
+People can *respond when it's the right time* for them, because *right now might not be the best time.
+So everyone can *take their time before responding*.
+
+And that means we get their
+
+- best focus
+- best ideas
+- best self
+
+(pause)
+
+But there is *slowness* to asynchronous communication. That can be really *frustrating*.
+
+And that slowness is exacerbated by every round trip
+
+Every time someone needs to ask another clarifying question
+
+That's potentially another day before we resolve this conversation
+
+-->
+
+---
+
+<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
+
+![bg](images/full-text-convo.jpg)
+
+<!--
+
+I have conversations like this with my 12yo over text message
+
+where we say nothing for 10 messages back and forth
+
+until finally she gets to her point
+
+You can't have conversations like that between US and Europe, where any message might not be answered until the next day
+
+So to collaborate asynchronously, we need to remove ambiguity as quickly as possible.
+
+(answer: the sleepover, cousin muffin has skipped a nap and is unhinged)
+
 -->
 
 ---
@@ -521,68 +579,18 @@ If something is unclear, get more information.
 
 <!--
 
+
+And we need to remove that ambiguity as proactively as possible.
+
+by communicating effectively
+
+...
+
+
 this is probably a non-controversial statement
 and also very nebulous
 we're all trying to do this in a lot of ways
 here are some things to focus on.
-
--->
-
----
-
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** | 5 | 6 "  -->
-
-# Communicate effectively **asynchronously**.
-
-<!-- prettier-ignore -->
-1) Minimize round trips.
-
-<!--
-And we need to especially *focus* on asynchronous communication.
-Collaborating through PRs is *inherently asynchronous*, and with that comes some *really great* things.
-We can *collaborate across time and location*.
-People can *respond when it's the right time* for them, because *right now might not be the best time.
-So everyone can *take their time before responding*.
-
-And that means we get their
-
-- best focus
-- best ideas
-- best self
-
-(pause)
-
-But there is *slowness* to asynchronous communication. That can be really *frustrating*.
-
-The most important thing you can do to *prevent that pain*,
-
-...
-
-is to minimize round trips.
-
-And that means doing all the *things we've talked about*, and some things we will talk about soon.
-
-Providing clarity, giving complete information, etc
-
-and proactively, so that the reader doesn't need to ask as many clarifying questions.
-
--->
-
----
-
-<!-- _header: "0 | 1 | 2 | 3 | **4: Remove ambiguity.** _Communicate effectively asynchronously_ | 5 | 6 "  -->
-
-![bg](images/full-text-convo.jpg)
-
-<!--
-
-Because you can't have conversations like the ones I have with my 12yo
-
-Where it takes ten round-trips to get to the point
-
-Especially when you're working across time zones and you have to wait until tomorrow to see a response to each exchange.
-
-(answer: the sleepover, cousin muffin has skipped a nap and is unhinged)
 
 -->
 
@@ -879,7 +887,7 @@ on an epic level, what is included in this feature?
 
 ![bg opacity:80%](images/aside-bachelor.jpg)
 
-> _I'm here to request changes <br/> **for the right reasons**_.
+> _I'm here (to request changes) <br/> **for the right reasons**_.
 
 <!--
 
@@ -910,11 +918,13 @@ That's ambiguity at work.
 <!-- prettier-ignore -->
 1) The code could be more readable.
 <!-- prettier-ignore -->
-2) Code that was not added or edited <br/>in the PR is wrong.
+2) Code that was refactored but<br/> not logically changed looks incorrect.
 <!-- prettier-ignore -->
 3) The syntax doesn't match my preference.
 
 <!--
+
+identifying whether a particular change is fair to request is hard, because the answer is often "it depends"
 
 1 - what's readable?
 
@@ -956,11 +966,11 @@ Ambiguity leads to imbalances,
 
 and honestly inequities.
 
-It leads to different collaborators being held to different standards.
+It leads to people falling back on power dynamics to decide whether to request specific changes.
 
-Sometimes that's what you want
+That leads to different collaborators being held to different standards.
 
-But often it's not
+That's usually not what you want.
 
 The best way to kill ambiguity is to define rules of engagement more precisely
 
