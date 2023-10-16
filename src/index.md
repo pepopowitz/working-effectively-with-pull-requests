@@ -470,17 +470,13 @@ when a change in a PR doesn't make sense, that's often also the case.
 
 # **Ask**, don't guess.
 
-<!-- prettier-ignore -->
-1) Get help understanding the things you don't understand.
-
-<!-- prettier-ignore -->
-2) Take it synchronous if it's still unclear.
+### Get help understanding the things you don't understand.
 
 <!--
 
 if something doesn't make sense or seems wrong, ask questions about it
 
-2 - if things go back and forth more than a couple times in comments, don't be afraid to take it to a synchronous conversation
+don't be afraid to take it to a synchronous conversation
 
 just make sure that any decisions that come out of that conversation, or discoveries, or anything interesting, makes its way back to the PR as a comment.
 
