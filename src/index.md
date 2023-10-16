@@ -1383,7 +1383,7 @@ just a couple small tips here
 
 # Give **credit**.
 
-![github commit summary, showing multiple contributors](images/aside-all-contribs.png)
+![github commit summary, showing multiple contributors](images/aside-all-contribs.jpg)
 
 <!--
 
