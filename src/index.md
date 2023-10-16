@@ -1,10 +1,11 @@
 ---
 marp: true
 theme: steve
-footer: '@pepopowitz | pull-requests.stevenhicks.me'
+footer: 'stevenhicks.me/where | pull-requests.stevenhicks.me'
 ---
 
 <!-- _class: title -->
+<!-- _footer: "" -->
 
 ![bg opacity:80%](images/cover.jpg)
 
