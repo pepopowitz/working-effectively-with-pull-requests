@@ -190,9 +190,11 @@ and why
 
 ...
 
-many times that historical record is even for the person who made the changes
+and that historical record is useful for anyone who works on this codebase,
 
-because it's hard for anyone to remember what they were thinking a month ago
+any time in the future
+
+not just the individuals who worked directly on the PR.
 
 -->
 
@@ -312,14 +314,9 @@ so let's focus on what we can do
 2 - even with the right intent, impact can be negative. Own your actions when things go wrong.
 
 
-3 - and on the other side, reward good acts
+3 - call out bad acts, and on the other side, reward good acts
 
 acts, not actors, because they don't know they're doing something bad
-
-*we* can focus on building an environment
-
-with enough psychological safety that people can feel more comfortable assuming positive intent
-
 
 -->
 
@@ -335,7 +332,7 @@ I said this is a talk about culture, and I want to share my favorite analogy
 
 of culture as a community garden.
 
-When you find a situation with good culture, it's like walking into a community garden that produces the best fruits and vegetables.
+When you find a good culture, it's like walking into a community garden that produces the best fruits and vegetables.
 
 The carrots taste delicious, and you don't want to leave.
 
@@ -416,6 +413,8 @@ That's a power dynamic in the opposite direction, and it also appears in the int
 2) Be **explicit** instead of implicit.
 
 <!--
+
+The best way to navigate power dynamics is to be careful with words and choose them intentionally
 
 The weight of our words, especially when we're on the strong side of the dynamic, is incredible.
 
